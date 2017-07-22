@@ -1,0 +1,137 @@
+/* You can add global styles to this file, and also import other style files */
+/*-Text Styling-*/
+/*--Titles--*/
+
+/*-Box & Containers-*/
+.container {
+  margin: 0 auto;
+  max-width: 1280px;
+  width: 80%;
+  padding: 0px 0px 0px 10px;
+}
+
+.smallcontainer {
+  margin: 0 auto;
+  max-width: 1280px;
+  width: 40%;
+  padding: 20px;
+}
+
+.centerthings{
+	display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#wrapper {
+  margin:auto;
+  width:85%;
+  height: 200px;
+  clear:both;
+  margin-top:20px;
+  background-color: Lavender;
+  font-family: "Calibri Light";
+  font-size: 40px;
+  font-weight: bold;
+  color: DimGray;
+  text-align: center;
+  word-wrap: break-word;
+}
+#first {
+  width:33%;
+  height:inherit;
+  float:left;
+  padding-top: 20px;
+}
+#second {
+  width:33%;
+  height:inherit;
+  float:left;
+padding-top: 20px;
+}
+#third {
+  width:33%;
+  height:inherit;
+  float:left;
+padding-top: 20px;
+}
+
+/*-Search Bar-*/
+#search input[type="searchbar"] {
+    background: no-repeat 6px 6px White;
+    font-family: "Calibri Light";
+    font-size: 18px;
+    color: DimGrey;
+    width: 400px;
+    padding: 10px 15px;
+}
+
+/*-Format the menu-*/
+ul {
+  list-style: none outside none;
+  margin:0;
+  padding: 0;
+  text-align: right;
+  background-color: White;
+}
+
+li {
+  display: inline-block;
+}
+
+li a {
+  display: block;
+    color: Gray;
+    text-align: right;
+  font-family: "Calibri";
+  font-size: 18px;
+    text-decoration: none;
+  padding: 14px 16px 14px 16px;
+}
+
+/*Changes menu text when highlighting with mouse*/
+li a:hover {
+    color: BurlyWood;
+}
+
+/*-Images-*/
+/*--Formats the logo--*/
+#logo {
+    width: 30px;
+		position: relative;
+		top: 5px;
+}
+/*--Formats food pic on home page--*/
+#foodpichome {
+    width: 60px;
+}
+
+/*--Banner on Home Page--*/
+.PunchBanner {
+  /*background-image: url("http://www.publicdomainpictures.net/pictures/120000/velka/purple-and-pink-background.jpg");*/
+  /*background-repeat: no-repeat;*/
+  background-color: LightGoldenRodYellow;
+  padding : 50px 50px 50px 50px;
+}
+
+.punchline {
+font-size:60px;
+color: DarkGoldenRod;
+font-family: "Arial";
+text-align: center;
+font-weight: bold;
+}
+
+.catchphrase {
+font-size:20px;
+color: DimGrey;
+font-family: "Arial";
+text-align:center;
+font-weight: normal;
+padding-bottom: 20px;
+}
+
+/*--Meal box styling--*/
+
+
+/*-Formatting-*/

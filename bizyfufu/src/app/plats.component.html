@@ -1,0 +1,10 @@
+<h1>{{title}}</h1>
+<h2>Mes plats</h2>
+<ul class="plats">
+  <li *ngFor="let plat of plats"
+    [class.selected]="plat === selectedPlat"
+    (click)="onSelect(plat)">
+    <span class="badge">{{plat.id}}</span> {{plat.name}}
+  </li>
+</ul>
+<plat-detail [plat]="selectedPlat"></plat-detail>
