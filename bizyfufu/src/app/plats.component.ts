@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 import { Plat } from './plat';
 import { PlatService } from './plat.service';
@@ -16,7 +17,11 @@ export class PlatsComponent implements OnInit {
   plats: Plat[];
   selectedPlat: Plat;
 
-  constructor(private platService: PlatService) { }
+  constructor(
+    private platService: PlatService,
+    private router: Router,
+  ) { }
+
   getPlats(): void {
       this.platService.getPlats().then(plats => this.plats = plats);
   }
@@ -25,6 +30,9 @@ export class PlatsComponent implements OnInit {
     this.getPlats();
   }
 
+  gotoDetail(): void {
+    this.router.navigate(['/platDetail', this.selectedPlat.id]);
+  }
 
   onSelect(plat: Plat): void {
     this.selectedPlat = plat;
