@@ -30,5 +30,10 @@ export class PlatDetailComponent implements OnInit {
     this.location.back();
   }
 
+  save(): void {
+    this.platService.update(this.plat)
+      .then(() => this.goBack());
+  }
+
   @Input() plat: Plat;
 }

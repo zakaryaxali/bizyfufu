@@ -1,9 +1,16 @@
 <h2>{{title}}</h2>
+<div>
+  <label>Hero name:</label> <input #heroName />
+  <button (click)="add(heroName.value); heroName.value=''">
+    Add
+  </button>
+</div>
 <ul class="plats">
   <li *ngFor="let plat of plats"
     [class.selected]="plat === selectedPlat"
     (click)="onSelect(plat)">
-    <span class="badge">{{plat.id}}</span> {{plat.name}}
+    <span class="badge">{{plat.id}}</span> <span>{{plat.name}}</span>
+    <button class="delete" (click)="delete(hero); $event.stopPropagation()">x</button>
   </li>
 </ul>
 <div *ngIf="selectedPlat">

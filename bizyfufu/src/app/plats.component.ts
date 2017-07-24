@@ -37,4 +37,22 @@ export class PlatsComponent implements OnInit {
   onSelect(plat: Plat): void {
     this.selectedPlat = plat;
   }
+
+  add(name: string): void {
+    name = name.trim();
+    if (!name) { return; }
+    this.platService.create(name)
+      .then(plat => {
+        this.plats.push(plat);
+        this.selectedPlat = null;
+      });
+  }
+  delete(plat: Plat): void {
+    this.platService
+        .delete(plat.id)
+        .then(() => {
+          this.plats = this.plats.filter(h => h !== plat);
+          if (this.selectedPlat === plat) { this.selectedPlat = null; }
+        });
+  }
 }

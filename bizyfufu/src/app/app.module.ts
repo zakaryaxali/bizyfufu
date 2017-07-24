@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
+import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { DashboardComponent } from './dashboard.component';
@@ -9,6 +10,10 @@ import { PlatDetailComponent } from './plat-detail.component';
 import { PlatService } from './plat.service';
 
 import { AppRoutingModule } from './app-routing.module';
+
+// Imports for loading & configuring the in-memory web api
+import { InMemoryWebApiModule } from 'angular-in-memory-web-api';
+import { InMemoryDataService }  from './in-memory-data.service';
 
 @NgModule({
   declarations: [
@@ -20,7 +25,9 @@ import { AppRoutingModule } from './app-routing.module';
   imports: [
     BrowserModule,
     FormsModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpModule, // htppmodule toujours avant inmemory..
+    InMemoryWebApiModule.forRoot(InMemoryDataService)
   ],
   providers: [
     PlatService
