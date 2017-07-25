@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { DashboardComponent } from './dashboard.component';
 import { PlatsComponent } from './plats.component';
 import { PlatDetailComponent } from './plat-detail.component';
+import { PlatSearchComponent } from './plat-search.component';
 import { PlatService } from './plat.service';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -20,7 +21,8 @@ import { InMemoryDataService }  from './in-memory-data.service';
     AppComponent,
     DashboardComponent,
     PlatsComponent,
-    PlatDetailComponent
+    PlatDetailComponent,
+    PlatSearchComponent
   ],
   imports: [
     BrowserModule,

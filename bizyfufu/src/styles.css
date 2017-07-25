@@ -1,13 +1,25 @@
-/* You can add global styles to this file, and also import other style files */
 /*-Text Styling-*/
 /*--Titles--*/
-
+h1{
+  text-align: center;
+  color: DimGrey;
+  font-size: 50px;
+  font-family: "Calibri";
+}
 /*-Box & Containers-*/
 .container {
   margin: 0 auto;
   max-width: 1280px;
   width: 80%;
   padding: 0px 0px 0px 10px;
+}
+
+.mealcontainer {
+  margin:0 auto;
+  width:85%;
+  clear:both;
+  margin-top:50px;
+
 }
 
 .smallcontainer {
@@ -18,42 +30,43 @@
 }
 
 .centerthings{
-	display: block;
+  display: block;
   margin: 0 auto;
   text-align: center;
 }
 
 #wrapper {
+
   margin:auto;
   width:85%;
   height: 200px;
   clear:both;
-  margin-top:20px;
-  background-color: Lavender;
+  margin-top:40px;
+  margin-bottom: 20px;
   font-family: "Calibri Light";
   font-size: 40px;
   font-weight: bold;
-  color: DimGray;
-  text-align: center;
-  word-wrap: break-word;
+  color: IndianRed;
+  text-align: left;
+
 }
 #first {
   width:33%;
   height:inherit;
   float:left;
-  padding-top: 20px;
+    text-align: center;
 }
 #second {
   width:33%;
   height:inherit;
   float:left;
-padding-top: 20px;
+  text-align: center;
 }
 #third {
   width:33%;
   height:inherit;
   float:left;
-padding-top: 20px;
+    text-align: center;
 }
 
 /*-Search Bar-*/
@@ -95,16 +108,72 @@ li a:hover {
 }
 
 /*-Images-*/
+
+/*--Formats the image boxes--*/
+
+.box {
+
+display: inline-block;
+ height: 200px;
+ width: 400px;
+ margin: 20px;
+ padding: 10px;
+ border: none;
+ border-radius: 5px;
+ box-shadow: 3px 3px Gainsboro;
+
+}
+
+.mealpic{
+	float: left;
+}
+
+.mealpic img {
+    width: 200px;
+    height: 200px;
+	border-radius: 5px;
+}
+
 /*--Formats the logo--*/
 #logo {
     width: 30px;
-		position: relative;
+		position:relative;
 		top: 5px;
 }
+
 /*--Formats food pic on home page--*/
 #foodpichome {
     width: 60px;
 }
+
+
+.mealdescription{
+	 font-family: "Calibri";
+	 float: right;
+   padding: 5px;
+   width: 150px;
+   text-align: left;
+}
+
+.mealdescription h2{
+  color: SaddleBrown;
+}
+
+.mealdescription p{
+  font-style: italic;
+  font-size: 12px;
+  overflow:hidden;
+}
+
+.mealpic, .mealdescription{
+  float:left;
+}
+
+.mealprice{
+  font-size: 15px;
+  font-weight: bolder;
+}
+
 
 /*--Banner on Home Page--*/
 .PunchBanner {
