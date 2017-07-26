@@ -1,3 +1,4 @@
+<plat-search></plat-search>
 <h3>Top Plats</h3>
 <div class="grid grid-pad">
   <div *ngFor="let plat of plats" [routerLink]="['/platDetail', plat.id]" class="col-1-4">
@@ -6,4 +7,7 @@
     </div>
   </div>
 </div>
-<plat-search></plat-search>
+<!-- <input id="searchInput" class="controls" type="text" placeholder="Enter a location"> -->
+
+<label for="locationTextField">Location</label>
+        <input id="locationTextField" type="text" size="50">
