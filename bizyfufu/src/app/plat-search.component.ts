@@ -51,7 +51,7 @@ export class PlatSearchComponent implements OnInit {
   }
 
   gotoDetail(plat: Plat): void {
-    let link = ['/detail', plat.id];
+    let link = ['/platDetail', plat.id];
     this.router.navigate(link);
   }
 }
