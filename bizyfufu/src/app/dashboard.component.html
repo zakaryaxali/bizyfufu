@@ -1,4 +1,22 @@
-<plat-search></plat-search>
+
+<!-- Banner -->
+<div class="PunchBanner">
+
+  <div class="smallcontainer">
+    <div class="catchphrase">Bizyfufu is a food recommendation guide (based on where you are, what you like and what you do)</div>
+    <div class="punchline">What shall we eat?</div>
+    <adress-search></adress-search>
+  </div>
+
+  <!-- <div class="centerthings">
+    <div id="search">
+      <form method="get" action="http://www.google.com">
+        <input type="searchbar" placeholder="Votre adresse"></input>
+      </form>
+    </div>
+  </div> -->
+
+</div>
 <h3>Top Plats</h3>
 <div class="grid grid-pad">
   <div *ngFor="let plat of plats" [routerLink]="['/platDetail', plat.id]" class="col-1-4">
@@ -7,5 +25,3 @@
     </div>
   </div>
 </div>
-
-<adress-search></adress-search>

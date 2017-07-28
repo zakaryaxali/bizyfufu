@@ -1,11 +1,15 @@
 <h2>{{title}}</h2>
-<div>
-  <label>Hero name:</label> <input #heroName />
-  <button (click)="add(heroName.value); heroName.value=''">
-    Add
+<plat-search></plat-search>
+<!-- Ajoute d'un plat (Inutile mais présent pour tests) -->
+<!-- <div>
+  <label>Ajouter un plat:</label> <input #platName />
+  <button (click)="add(platName.value); platName.value=''">
+    Ajouter
   </button>
-</div>
-<ul class="plats">
+</div> -->
+
+<!-- Liste du tuto : A SUPPRIMER   -->
+<!-- <ul class="plats">
   <li *ngFor="let plat of plats"
     [class.selected]="plat === selectedPlat"
     (click)="onSelect(plat)">
@@ -18,4 +22,28 @@
     Je veux en savoir plus sur {{selectedPlat.name | uppercase}}
   </h2>
   <button (click)="gotoDetail()">View Details</button>
+</div> -->
+
+<div class="centerthings">
+  <div *ngFor="let plat of plats"
+    class="box"
+    [class.selected]="plat === selectedPlat"
+    (click)="onSelect(plat)">
+    <div class="mealpic">
+      <img [src]="plat.logo" [alt]="plat.name">
+    </div>
+    <div class="mealdescription">
+      <h2>{{plat.name}}</h2>
+      <p>{{plat.description}}</p>
+      <div class="mealprice">
+        à partir de {{plat.prix}}
+      </div>
+    </div>
+  </div>
+  <div *ngIf="selectedPlat">
+    <h2>
+      Je veux en savoir plus sur {{selectedPlat.name | uppercase}}
+    </h2>
+    <button (click)="gotoDetail()">View Details</button>
+  </div>
 </div>

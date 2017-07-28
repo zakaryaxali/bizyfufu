@@ -1,6 +1,8 @@
 <nav>
   <ul>
-    <!-- <li><a><img src=".\img\nefflogo.png" id="logo"></img></a></li> -->
+    <!-- A corriger -->
+    <!-- <li><a routerLink="/dashboard"></img [src]="logo" id="logo"></a></li> -->
+    <li><a routerLink="/dashboard"><img src="assets/img/logo.png" alt="BizyFufu" id="logo"></a></li>
     <!-- <li><a href="#accueil">Accueil</a></li>
     <li><a href="#apropos">A propos</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -11,22 +13,5 @@
   </ul>
 </nav>
 
-<!-- Banner -->
-<div class="PunchBanner">
-
-  <div class="smallcontainer">
-    <div class="catchphrase">{{title}} is a food recommendation guide (based on where you are, what you like and what you do)</div>
-    <div class="punchline">What shall we eat?</div>
-  </div>
-
-  <!-- <div class="centerthings">
-    <div id="search">
-      <form method="get" action="http://www.google.com">
-        <input type="searchbar" placeholder="Votre adresse"></input>
-      </form>
-    </div>
-  </div> -->
-
-</div>
 
 <router-outlet></router-outlet>

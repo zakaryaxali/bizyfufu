@@ -10,7 +10,7 @@ declare var google: any;
 })
 export class AdressSearchComponent implements OnInit {
   constructor(private router: Router) {}
-  
+
   ngOnInit(): void {
     // var input = document.getElementById('searchInput');
     // var autocomplete = new google.maps.places.Autocomplete(input);
@@ -22,7 +22,7 @@ export class AdressSearchComponent implements OnInit {
     google.maps.event.addDomListener(window, 'load', init);
   }
 
-  recommanderPlats(adress): void {
+  recommanderPlats(adress: string): void {
     let link = ['/plats'];
     this.router.navigate(link);
   }
