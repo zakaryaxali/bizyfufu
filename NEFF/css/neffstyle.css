@@ -204,3 +204,12 @@ padding-bottom: 20px;
 
 
 /*-Formatting-*/
+
+/*Maps*/
+#map {
+ height: 400px;
+ width: 90%;
+margin-left: auto;
+margin-right: auto;
+
+}
