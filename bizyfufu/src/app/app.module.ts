@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
+import { AgmCoreModule } from '@agm/core';
 
 import { AppComponent } from './app.component';
 import { DashboardComponent } from './dashboard.component';
@@ -10,6 +11,7 @@ import { PlatDetailComponent } from './plat-detail.component';
 import { PlatSearchComponent } from './plat-search.component';
 import { PlatService } from './plat.service';
 import { AdressSearchComponent } from './adress-search.component';
+import { MapComponent } from './map.component';
 
 import { AppRoutingModule } from './app-routing.module';
 
@@ -24,14 +26,18 @@ import { InMemoryDataService }  from './in-memory-data.service';
     PlatsComponent,
     PlatDetailComponent,
     PlatSearchComponent,
-    AdressSearchComponent
+    AdressSearchComponent,
+    MapComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     AppRoutingModule,
     HttpModule, // htppmodule toujours avant inmemory..
-    InMemoryWebApiModule.forRoot(InMemoryDataService)
+    InMemoryWebApiModule.forRoot(InMemoryDataService),
+    AgmCoreModule.forRoot({
+      apiKey: 'AIzaSyCHzqK921M6cl3LWhbv8hbRpjcPzuSwYpA'
+    })
   ],
   providers: [
     PlatService
