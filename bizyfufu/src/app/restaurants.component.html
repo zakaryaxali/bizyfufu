@@ -1,0 +1,12 @@
+<li *ngFor="let restaurant of restaurants"
+    [class.selected]="restaurant === selectedRestaurant"
+    (click)="onSelect(restaurant)">
+  <ul>{{ restaurant.id }}</ul>
+  <ul>{{ restaurant.logo }}</ul>
+  <ul>{{ restaurant.name }}</ul>
+  <ul>{{ restaurant.address }}</ul>
+  <ul>{{ restaurant.specialties }}</ul>
+  <ul>{{ restaurant.work_time }}</ul>
+  <ul>{{ restaurant.minimum_order }}</ul>
+  <ul>{{ restaurant.link }}</ul>
+</li>
