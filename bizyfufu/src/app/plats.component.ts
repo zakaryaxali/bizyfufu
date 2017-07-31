@@ -3,6 +3,8 @@ import { Router } from '@angular/router';
 
 import { Plat } from './plat';
 import { PlatService } from './plat.service';
+import { Restaurant } from './restaurant';
+import { RestaurantService } from './restaurant.service';
 
 
 
@@ -10,15 +12,18 @@ import { PlatService } from './plat.service';
   selector: 'my-plats',
   templateUrl: './plats.component.html',
   styleUrls: ['./plats.component.css'],
-  providers: [PlatService]
+  providers: [PlatService, RestaurantService]
 })
 export class PlatsComponent implements OnInit {
   title = 'We have found 156 sexy meals in your area';
   plats: Plat[];
   selectedPlat: Plat;
+  selectedPlatRestaurant: Restaurant;
+  voirRestaurant: boolean;
 
   constructor(
     private platService: PlatService,
+    private restaurantService: RestaurantService,
     private router: Router,
   ) { }
 
@@ -28,14 +33,24 @@ export class PlatsComponent implements OnInit {
 
   ngOnInit(): void {
     this.getPlats();
+    this.voirRestaurant = false;
   }
 
   gotoDetail(): void {
     this.router.navigate(['/platDetail', this.selectedPlat.id]);
   }
 
+  viewRestaurant(): void {
+    this.voirRestaurant = !this.voirRestaurant;
+  }
+
   onSelect(plat: Plat): void {
     this.selectedPlat = plat;
+    this.getRestaurantAssocieAuPlat(this.selectedPlat);
+  }
+
+  getRestaurantAssocieAuPlat(plat: Plat): void {
+    this.restaurantService.getRestaurant(plat.id_restaurant).then(restaurant => this.selectedPlatRestaurant = restaurant);
   }
 
   add(name: string): void {

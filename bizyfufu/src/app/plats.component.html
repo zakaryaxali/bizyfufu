@@ -29,6 +29,20 @@
       Je veux en savoir plus sur {{selectedPlat.name | uppercase}}
     </h2>
     <button (click)="gotoDetail()">View Details</button>
+    <button (click)="viewRestaurant()">Voir Restaurant</button>
+    <div *ngIf="voirRestaurant">
+      <h2>{{selectedPlatRestaurant.name}} details!</h2>
+      <div>
+          <br/>{{ selectedPlatRestaurant.id }}
+          <br/>{{ selectedPlatRestaurant.logo }}
+          <br/>{{ selectedPlatRestaurant.name }}
+          <br/>{{ selectedPlatRestaurant.address }}
+          <br/>{{ selectedPlatRestaurant.specialties }}
+          <br/>{{ selectedPlatRestaurant.work_time }}
+          <br/>{{ selectedPlatRestaurant.minimum_order }}
+          <br/>{{ selectedPlatRestaurant.link }}
+      </div>
+    </div>
   </div>
 </div>
 <map></map>
