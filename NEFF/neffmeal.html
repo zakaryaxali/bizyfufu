@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>NEFF - Votre Plat</title>
+    <link rel="stylesheet" type="text/css" href=".\css\neffstyle.css">
+
+</head>
+
+<body>
+
+    <!-- HEADER -->
+
+    <header>
+
+        <ul>
+            <!-- LOGO -->
+            <li>
+                <a><img src=".\img\nefflogo.png" id="logo"></img>
+                </a>
+            </li>
+            <li><a href="neffhome.html">Accueil</a></li>
+            <li><a href="#apropos">A propos</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#partenaires">Partenaires</a></li>
+            <li><a href="#profile">Mon Compte</a></li>
+
+        </ul>
+
+    </header>
+
+<div class="container">
+  <div class="mealtitle">Nom du plat</div>
+  <div class="mealaddress">@Restaurantquitue</div>
+  <div class="mealbox">
+          <div class="bigmealpic">
+              <img src="https://edge.alluremedia.com.au/m/l/2016/07/iStock_77993281_LARGE.jpg" alt="Chinese_meal">
+          </div>
+          <div class="mealstyle">
+              Style Tags : Chinois, FastFood, Healthy
+          </div>
+          <div class="mealcalories">
+              Calories estimées : 26635 kcal
+          </div>
+          <div class="mealingredients">
+              Ingrédients : Crevettes, Coriandre, Gingembre, Huile de Coco, Poulet, Ciboulette, Oeufs
+          </div>
+          <div class="comparatorbox">
+            <h1> Faites-vous livrer par... </h1>
+            <div class="livreurbox">
+              <h2> Deliveroo </h2>
+              <h3> 15€ </h3>
+              <h4> Livraison estimée à 19h05</h4>
+              <div class="centerthings">
+                <button class="orderbutton">Commander</button>
+              </div>
+            </div>
+            <div class="livreurbox">
+              <h2> Foodora </h2>
+              <h3> 14€ </h3>
+              <h4> Livraison estimée à 19h00</h4>
+              <div class="centerthings">
+                <button class="orderbutton">Commander</button>
+              </div>
+            </div>
+            <div class="livreurbox">
+              <h2> Lieferando </h2>
+              <h3> 15€ </h3>
+              <h4> Livraison estimée à 19h30</h4>
+              <div class="centerthings">
+                <button class="orderbutton">Commander</button>
+              </div>
+            </div>
+          </div>
+
+  </div>
+</div>
+
+<div id="map">
+</div>
+
+  <script>
+    function initMap() {
+      var uluru = {lat: 48.8492876, lng: 2.3712717};
+      var map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 15,
+        center: uluru
+      });
+      var marker = new google.maps.Marker({
+        position: uluru,
+        map: map
+      });
+    }
+  </script>
+
+  <script async defer
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCHzqK921M6cl3LWhbv8hbRpjcPzuSwYpA&callback=initMap">
+  </script>
+
+
+</body>
+</html>
