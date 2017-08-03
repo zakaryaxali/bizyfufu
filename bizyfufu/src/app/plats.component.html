@@ -27,6 +27,7 @@
   <div *ngIf="selectedPlat">
     <h2>
       Je veux en savoir plus sur {{selectedPlat.name | uppercase}}
+      <br>!geocoding={{geocoding}}!
     </h2>
     <button (click)="gotoDetail()">View Details</button>
     <button (click)="viewRestaurant()">Voir Restaurant</button>
@@ -45,4 +46,7 @@
     </div>
   </div>
 </div>
-<map></map>
+<agm-map [latitude]="lat" [longitude]="lng" [zoom]="zoom">
+  <agm-marker [latitude]="lat" [longitude]="lng"></agm-marker>
+  <agm-marker [latitude]="lat1" [longitude]="lng1"></agm-marker>
+</agm-map>
