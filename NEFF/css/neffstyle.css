@@ -137,6 +137,19 @@ display: inline-block;
 
 }
 
+.restobox {
+
+display: inline-block;
+ height: 400px;
+ width: 100%;
+ margin: 20px;
+ padding: 10px;
+ border: none;
+ border-radius: 5px;
+ box-shadow: 3px 3px Gainsboro;
+
+}
+
 .mealpic{
 	float: left;
 }
@@ -152,6 +165,16 @@ display: inline-block;
 }
 
 .bigmealpic img {
+    width: 600px;
+    height: 400px;
+	border-radius: 5px;
+}
+
+.restopic{
+	float: right;
+}
+
+.restopic img {
     width: 600px;
     height: 400px;
 	border-radius: 5px;
@@ -179,6 +202,28 @@ display: inline-block;
   font-style: italic;
 
 }
+
+.menubox {
+  display: inline-block;
+   height: calc(100% - 125px);
+   width: 500px;
+   margin: 20px;
+   padding: 10px;
+   border: none;
+   border-radius: 5px;
+   box-shadow: none;
+
+}
+
+.menubox h1{
+  text-align: center;
+  font-family: "Calibri Light";
+  font-size: 18px;
+  font-weight: bold;
+  font-style: italic;
+
+}
+
 
 .livreurbox {
 
@@ -259,6 +304,19 @@ display: inline-block;
 
 }
 
+.restodescription{
+	 font-family: "Calibri Light";
+	 float: Left;
+   padding: 5px;
+   width: 500px;
+   text-align: left;
+   font-size: 17px;
+   height:60px;
+   overflow-y:auto;
+   margin-bottom: 15px;
+
+}
+
 .mealcalories{
 	 font-family: "Calibri Light";
 	 float: Left;
@@ -267,6 +325,29 @@ display: inline-block;
    text-align: left;
    font-size: 20px;
    height:20px;
+
+}
+
+.restohoraires{
+	 font-family: "Calibri Light";
+	 float: Left;
+   padding: 5px;
+   width: 500px;
+   text-align: left;
+   font-size: 20px;
+   height:20px;
+
+}
+
+.restourl{
+	 font-family: "Calibri Light";
+	 float: Left;
+   padding: 5px;
+   width: 500px;
+   text-align: left;
+   font-size: 20px;
+   height:20px;
+   color: Maroon;
 
 }
 
@@ -279,7 +360,7 @@ display: inline-block;
    font-size: 20px;
    color: Brown;
    height:20px;
-   overflow-y:scroll;
+   overflow-y:auto;
 }
 
 
@@ -308,7 +389,20 @@ display: inline-block;
   color:DimGrey;
 }
 
+.restotitle{
+  font-size: 30px;
+  font-family:"Calibri Light";
+  color:DimGrey;
+}
+
 .mealaddress{
+  font-size: 20px;
+  color:Gray;
+  font-style: italic;
+  font-family:"Calibri Light";
+}
+
+.restoaddress{
   font-size: 20px;
   color:Gray;
   font-style: italic;
@@ -351,5 +445,25 @@ padding-bottom: 20px;
  width: 90%;
 margin-left: auto;
 margin-right: auto;
+position:static;
+}
 
+table{
+  font-family: "Calibri Light";
+  border: 1px solid black;
+  width: inherit;
+  text-align: left;
+  padding: 15px;
+  vertical-align: middle;
+  background-color: Beige;
+}
+
+.footer {
+  position:relative;
+  right: 0;
+  bottom: 0;
+  left:0;
+  padding: 1rem;
+  background-color: RED;
+  text-align: center;
 }
