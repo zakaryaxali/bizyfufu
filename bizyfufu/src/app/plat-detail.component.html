@@ -1,4 +1,4 @@
-<div *ngIf="plat">
+<!-- <div *ngIf="plat">
   <h2>{{plat.name}} details!</h2>
   <div>
     <label>id: </label>{{plat.id}}</div>
@@ -8,4 +8,62 @@
   </div>
   <button (click)="goBack()">Back</button>
   <button (click)="save()">Save</button>
+</div> -->
+<div class="container">
+  <div class="mealtitle">{{plat.name}}</div>
+  <div class="mealaddress">{{restaurant.address}}</div>
+  <!-- Pas le nom du restaurant? -->
+  <!--  Mettre quelque part jusqu'à quelle heure est disponible le plat? -->
+  <!-- Comment accede-t-on d'ici à la page du restaurant ?? -->
+  <div class="mealbox">
+          <div class="bigmealpic">
+              <img src="https://edge.alluremedia.com.au/m/l/2016/07/iStock_77993281_LARGE.jpg" alt="{{plat.name}}">
+          </div>
+          <!-- /!\ Style du restaurant peut etre different du style du plat -->
+          <div class="mealstyle">
+              Style Tags : {{restaurant.specialties}}
+          </div>
+          <div class="mealcalories">
+              Calories estimées : X kcal
+          </div>
+          <!-- <div class="mealingredients">
+              Ingrédients : Crevettes, Coriandre, Gingembre, Huile de Coco, Poulet, Ciboulette, Oeufs
+          </div> -->
+          <div class="mealingredients">
+              Description : {{plat.description}}
+          </div>
+          <div class="comparatorbox">
+            <h1> Faites-vous livrer par... </h1>
+            <div class="livreurbox">
+              <h2> Deliveroo </h2>
+              <h3> {{plat.prix}} </h3>
+              <h4> Livraison estimée à 19h05</h4>
+              <div class="centerthings">
+                <button class="orderbutton">Commander</button>
+              </div>
+            </div>
+            <div class="livreurbox">
+              <h2> Foodora </h2>
+              <h3> 14€ </h3>
+              <h4> Livraison estimée à 19h00</h4>
+              <div class="centerthings">
+                <button class="orderbutton">Commander</button>
+              </div>
+            </div>
+            <div class="livreurbox">
+              <h2> Lieferando </h2>
+              <h3> 15€ </h3>
+              <h4> Livraison estimée à 19h30</h4>
+              <div class="centerthings">
+                <button class="orderbutton">Commander</button>
+              </div>
+            </div>
+          </div>
+
+  </div>
 </div>
+
+<agm-map [latitude]="userLat" [longitude]="userLng" [zoom]="zoom">
+  <agm-marker [latitude]="userLat" [longitude]="userLng"></agm-marker>
+  <!-- <agm-marker [latitude]="restaurantLat" [longitude]="restaurantLng"></agm-marker> -->
+</agm-map>

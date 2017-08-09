@@ -1,6 +1,6 @@
-<h2>{{title}}</h2>
-<plat-search></plat-search>
+<h2>We have found {{nbPlats}} sexy meals in your area</h2>
 <!-- Ajout d'un plat (Inutile mais présent pour tests) -->
+<!-- <plat-search></plat-search> -->
 <!-- <div>
   <label>Ajouter un plat:</label> <input #platName />
   <button (click)="add(platName.value); platName.value=''">
@@ -27,8 +27,9 @@
   <div *ngIf="selectedPlat">
     <h2>
       Je veux en savoir plus sur {{selectedPlat.name | uppercase}}
+      <br>Geocode = {{selectedPlatRestaurantLat}} - {{selectedPlatRestaurantLng}}
     </h2>
-    <button (click)="gotoDetail()">View Details</button>
+    <button (click)="gotoDetail()">Voir le plat</button>
     <button (click)="viewRestaurant()">Voir Restaurant</button>
     <div *ngIf="voirRestaurant">
       <h2>{{selectedPlatRestaurant.name}} details!</h2>
@@ -45,4 +46,9 @@
     </div>
   </div>
 </div>
-<map></map>
+
+<agm-map [latitude]="lat" [longitude]="lng" [zoom]="zoom">
+  <agm-marker [latitude]="lat" [longitude]="lng"></agm-marker>
+  <!-- <agm-marker [latitude]="selectedPlatRestaurantLat" [longitude]="selectedPlatRestaurantLng"></agm-marker> -->
+  <agm-marker [latitude]="lat1" [longitude]="lng1"></agm-marker>
+</agm-map>

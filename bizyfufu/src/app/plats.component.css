@@ -52,3 +52,9 @@
       background-color: gray !important;
       color:white;
     }
+    /*Maps*/
+    agm-map {
+      height: 300px;
+      width: 90%;
+      margin: 0 auto;
+    }

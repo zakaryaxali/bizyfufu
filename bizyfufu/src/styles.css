@@ -124,6 +124,19 @@ display: inline-block;
 
 }
 
+.mealbox {
+
+display: inline-block;
+ height: 400px;
+ width: 100%;
+ margin: 20px;
+ padding: 10px;
+ border: none;
+ border-radius: 5px;
+ box-shadow: 3px 3px Gainsboro;
+
+}
+
 .mealpic{
 	float: left;
 }
@@ -132,6 +145,86 @@ display: inline-block;
     width: 200px;
     height: 200px;
 	border-radius: 5px;
+}
+
+.bigmealpic{
+	float: right;
+}
+
+.bigmealpic img {
+    width: 600px;
+    height: 400px;
+	border-radius: 5px;
+}
+
+/*Comparateur de prix*/
+.comparatorbox {
+
+display: inline-block;
+ height: calc(100% - 125px);
+ width: 500px;
+ margin: 20px;
+ padding: 10px;
+ border: none;
+ border-radius: 5px;
+ box-shadow: none;
+
+}
+
+.comparatorbox h1{
+  text-align: center;
+  font-family: "Calibri Light";
+  font-size: 18px;
+  font-weight: bold;
+  font-style: italic;
+
+}
+
+.livreurbox {
+
+ display: inline-block;
+ height: 70%;
+ width: calc(100%/3.5);
+ background: whitesmoke;
+
+}
+
+.livreurbox h2{
+  text-align: center;
+  font-family: "Calibri Light";
+  font-size: 20px;
+  font-weight: bold;
+
+}
+
+.livreurbox h3{
+  text-align: center;
+  font-family: "Calibri Light";
+  font-size: 18px;
+  color:darkslateblue;
+
+}
+
+.livreurbox h4{
+  text-align: left;
+  padding-left: 7px;
+  font-family: "Calibri Light";
+  font-size: 15px;
+  color:darkslateblue;
+
+}
+
+.orderbutton {
+    background-color: darkslateblue;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 5px;
+    height:inherit;
 }
 
 /*--Formats the logo--*/
@@ -155,6 +248,41 @@ display: inline-block;
    text-align: left;
 }
 
+.mealstyle{
+	 font-family: "Calibri Light";
+	 float: Left;
+   padding: 5px;
+   width: 500px;
+   text-align: left;
+   font-size: 20px;
+   height:20px;
+
+}
+
+.mealcalories{
+	 font-family: "Calibri Light";
+	 float: Left;
+   padding: 5px;
+   width: 500px;
+   text-align: left;
+   font-size: 20px;
+   height:20px;
+
+}
+
+.mealingredients{
+	 font-family: "Calibri Light";
+	 float: Left;
+   padding: 5px;
+   width: 500px;
+   text-align: left;
+   font-size: 20px;
+   color: Brown;
+   height:20px;
+   overflow-y:scroll;
+}
+
+
 .mealdescription h2{
   color: SaddleBrown;
 }
@@ -174,6 +302,18 @@ display: inline-block;
   font-weight: bolder;
 }
 
+.mealtitle{
+  font-size: 30px;
+  font-family:"Calibri Light";
+  color:DimGrey;
+}
+
+.mealaddress{
+  font-size: 20px;
+  color:Gray;
+  font-style: italic;
+  font-family:"Calibri Light";
+}
 
 /*--Banner on Home Page--*/
 .PunchBanner {
@@ -204,3 +344,20 @@ padding-bottom: 20px;
 
 
 /*-Formatting-*/
+
+/*Maps*/
+#map {
+ height: 400px;
+ width: 90%;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+/*Maps*/
+agm-map {
+  height: 300px;
+  width: 90%;
+ /*margin-left: auto;
+ margin-right: auto;*/
+}

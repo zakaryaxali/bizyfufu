@@ -1,0 +1,1629 @@
+[
+    {
+        "specialties": [
+            "Français",
+            "Fusion",
+            "Coréen",
+            "Asiatique"
+        ],
+        "link": "https://deliveroo.fr/fr/menu/paris/11eme-republique/pierre-sang?day=today&rpos=0&time=ASAP",
+        "id": "47900",
+        "description": "- la cuisine de Pierre Sang -Read more",
+        "phone": "+33967319680",
+        "logo": "https://cdn1.deliveroo.co.uk/media/menus/36493/400x225.jpg?v=1492616804&quality=80",
+        "name": "Pierre Sang - Express",
+        "address": "8 rue Gambey, Paris, 75011",
+        "work_time": "Ouvert jusqu'à 22:45"
+    },
+    {
+        "specialties": [
+            "Glaces",
+            "Dessert",
+            "Italien"
+        ],
+        "link": "https://deliveroo.fr/fr/menu/paris/11eme-bastille/amorino-roquette?day=today&rpos=1&time=ASAP",
+        "id": "13846",
+        "description": "Glace italienne d’Excellence, 100% issue de produits naturels et d’ingrédients sélectionnés, sans colorant, ni arôme artificiel. Découvrez nos coffrets isothermes et nos Macarons al Gelato.Read more",
+        "phone": "+33143553199",
+        "logo": "https://cdn1.deliveroo.co.uk/media/menus/18565/400x225.jpg?v=1473408098&quality=80",
+        "name": "Amorino Bastille",
+        "address": "4 Rue de la Roquette, Paris, 75011",
+        "work_time": "Ouvert jusqu'à 23:00"
+    },
+    {
+        "specialties": [
+            "Glaces",
+            "Dessert",
+            "Italien"
+        ],
+        "link": "https://deliveroo.fr/fr/menu/paris/4eme-hotel-de-ville/amorino-francs-bourgeois?day=today&rpos=2&time=ASAP",
+        "id": "13861",
+        "description": "Glace italienne d’Excellence, 100% issue de produits naturels et d’ingrédients sélectionnés, sans colorant, ni arôme artificiel. Découvrez nos coffrets isothermes et nos Macarons al Gelato.Read more",
+        "phone": "+33682318455",
+        "logo": "https://cdn1.deliveroo.co.uk/media/menus/18565/400x225.jpg?v=1473408098&quality=80",
+        "name": "Amorino Place des Vosges",
+        "address": "1 rue des Francs Bourgeois, Paris, 75004",
+        "work_time": "Ouvert jusqu'à 23:00"
+    },
+    {
+        "specialties": [
+            "Français",
+            "Bière",
+            "Belge"
+        ],
+        "link": "https://deliveroo.fr/fr/menu/paris/11eme-voltaire/paris-saint-biere?day=today&rpos=3&time=ASAP",
+        "id": "34581",
+        "description": "La référence en terme de bièreRead more",
+        "phone": "+33143480711",
+        "logo": "https://cdn1.deliveroo.co.uk/media/menus/26985/400x225.jpg?v=1479392548&quality=80",
+        "name": "Paris Saint Bière",
+        "address": "101 RUE DE CHARONNE, Paris, 75011",
+        "work_time": "Ouvert jusqu'à 22:00"
+    },
+    {
+        "specialties": [
+            "Américain",
+            "Bagels"
+        ],
+        "link": "https://deliveroo.fr/fr/menu/paris/4eme-hotel-de-ville/bagelstein-verrerie?day=today&rpos=4&time=ASAP",
+        "id": "13827",
+        "description": "\" Arrêtez de manger de la merde ! \"Read more",
+        "phone": "+33142710666",
+        "logo": "https://cdn1.deliveroo.co.uk/media/menus/12225/400x225.jpg?v=1474304974&quality=80",
+        "name": "Bagelstein Verrerie",
+        "address": "2 rue de la Verrerie, Paris, 75004",
+        "work_time": "Ouvert jusqu'à 22:30"
+    },
+    {
+        "specialties": [
+            "Américain",
+            "Bagels"
+        ],
+        "link": "https://deliveroo.fr/fr/menu/paris/Aligre/bagelstein-ledru-rollin?day=today&rpos=5&time=ASAP",
+        "id": "44385",
+        "description": "\" Arrêtez de manger de la merde ! \"Read more",
+        "phone": "+33140192332",
+        "logo": "https://cdn1.deliveroo.co.uk/media/menus/12225/400x225.jpg?v=1474304974&quality=80",
+        "name": "Bagelstein Ledru Rollin",
+        "address": "106 rue du Faubourg Saint-Antoine, Paris, 75012",
+        "work_time": "Ouvert jusqu'à 23:00"
+    },
+    {
+        "specialties": [
+            "Américain",
+            "Bagels"
+        ],
+        "link": "https://deliveroo.fr/fr/menu/paris/11eme-bastille/bagelstein-roquette?day=today&rpos=6&time=ASAP",
+        "id": "13833",
+        "description": "\" Arrêtez de manger de la merde ! \"Read more",
+        "phone": "+33143550124",
+        "logo": "",
+        "name": "Bagelstein Roquette ",
+        "address": "15 rue de la Roquette, Paris, 75011",
+        "work_time": "Ouvert jusqu'à 23:00"
+    },
+    {
+        "specialties": [
+            "Japonais",
+            "Mexicain",
+            "Sushi",
+            "Burritos"
+        ],
+        "link": "https://deliveroo.fr/fr/menu/paris/11eme-belleville/fuumi?day=today&rpos=7&time=ASAP",
+        "id": "24743",
+        "description": "Le 1er concept de Sushi Burrito en FranceRead more",
+        "phone": "+33777259384",
+        "logo": "",
+        "name": "Fuumi",
+        "address": "124 avenue Parmentier, Paris, 75011",
+        "work_time": "Ouvert jusqu'à 22:30"
+    },
+    {
+        "specialties": [
+            "Américain",
+            "Burgers"
+        ],
+        "link": "https://deliveroo.fr/fr/menu/paris/4eme-hotel-de-ville/bonhomme-burger?day=today&rpos=8&time=ASAP",
+        "id": "51617",
+        "description": "Bonhomme Burger livre à domicile l’un des meilleurs burgers de Paris pour moins de 10euros, frites incluses. Recettes exclusives imaginées par un grand chef Parisien, Steak de bœuf massif, Cheddar affiné du Lancashire, Bun brioché de chez RachelRead more",
+        "phone": "+33148123456",
+        "logo": "",
+        "name": "Bonhomme Burger",
+        "address": "4 rue Crillon, Paris, 75004",
+        "work_time": "Ouvert jusqu'à 23:30"
+    },
+    {
+        "specialties": [
+            "Thaï",
+            "Asiatique"
+        ],
+        "link": "https://deliveroo.fr/fr/menu/paris/Reuilly-Diderot/paya-thai-12eme?day=today&rpos=9&time=ASAP",
+        "id": "26477",
+        "description": "Paya Thaï vous fait découvrir l'authentique cuisine thaïe préparée au wok.Read more",
+        "phone": "+33950961000",
+        "logo": "",
+        "name": "Paya Thai",
+        "address": "30 Rue d'Aligre, Paris, 75012",
+        "work_time": "Ouvert jusqu'à 22:15"
+    },
+    {
+        "specialties": [
+            "Italien",
+            "Pizza",
+            "Pâtes Fraîches"
+        ],
+        "link": "https://deliveroo.fr/fr/menu/paris/11eme-bastille/bombolo?day=today&rpos=10&time=ASAP",
+        "id": "7500",
+        "description": "Chez Bomboló, \"bon vivant\" en Napolitain, on y trouve des produits frais et de saison du marché. Ses spécialités italiennes charmerons votre palais !Read more",
+        "phone": "+33143481988",
+        "logo": "",
+        "name": "Bombolò",
+        "address": "51 rue Basfroi, Paris, 75011",
+        "work_time": "Ouvert jusqu'à 23:00"
+    },
+    {
+        "specialties": [
+            "Thaï",
+            "Asiatique"
+        ],
+        "link": "https://deliveroo.fr/fr/menu/paris/11eme-voltaire/paya-thai?day=today&rpos=11&time=ASAP",
+        "id": "14646",
+        "description": "Paya Thaï vous fait découvrir l'authentique cuisine thaïe préparée au wok.Read more",
+        "phone": "+33950966555",
+        "logo": "",
+        "name": "Paya Thai",
+        "address": "47 rue Richard Lenoir, Paris, 75011",
+        "work_time": "Ouvert jusqu'à 22:15"
+    },
+    {
+        "specialties": [
+            "Américain",
+            "Burgers"
+        ],
+        "link": "https://deliveroo.fr/fr/menu/paris/11eme-belleville/bandm?day=today&rpos=12&time=ASAP",
+        "id": "20302",
+        "description": "B&M, le burger meilleur !Read more",
+        "phone": "+33143572611",
+        "logo": "",
+        "name": "B&M",
+        "address": "82 Avenue Parmentier, Paris, 75011",
+        "work_time": "Ouvert jusqu'à 23:00"
+    },
+    {
+        "specialties": [
+            "Italien",
+            "Pizza"
+        ],
+        "link": "https://deliveroo.fr/fr/menu/paris/11eme-belleville/mamma-roma-oberkampf?day=today&rpos=13&time=ASAP",
+        "id": "32377",
+        "description": "Goûtez plusieurs variétés de pizza à la fois en choisissant parmi les recettes originales et modernes de Mamma Roma, à base de produits italiens authentiques.Read more",
+        "phone": "+33147003790",
+        "logo": "",
+        "name": "Mamma Roma",
+        "address": "90 rue Oberkampf, Paris, 75011",
+        "work_time": "Ouvert jusqu'à 22:30"
+    },
+    {
+        "specialties": [
+            "Asiatique",
+            "Fusion"
+        ],
+        "link": "https://deliveroo.fr/fr/menu/paris/11eme-bastille/eat-kuai?day=today&rpos=14&time=ASAP",
+        "id": "39030",
+        "description": "Une fusion de saveur d'Hanoï jusqu'à Shanghai. Une cuisine authentique, traditionnelle, revisité à la sauce parisienne par leurs chefs venus des quatre coins de l'Asie. Ils vous concoctent des plats aux goûts unique qui vous feront voyager !  Read more",
+        "phone": "+33155288877",
+        "logo": "",
+        "name": "Eat Kuai",
+        "address": "23 rue des taillandiers, Paris, 75011",
+        "work_time": "Ouvert jusqu'à 22:55"
+    },
+    {
+        "specialties": [
+            "Italien",
+            "Glaces"
+        ],
+        "link": "https://deliveroo.fr/fr/menu/paris/4eme-hotel-de-ville/grom-vieille-du-temple?day=today&rpos=15&time=ASAP",
+        "id": "28134",
+        "description": "Le vrai goût de la glace italienne. \r\nNos glaces GROM sont fabriquées avec d’excellents ingrédients d’origine naturelle et nos sorbets uniquement avec des fruits de saison. Créées en Italie pour ravir le monde.Read more",
+        "phone": "+33153691445",
+        "logo": "",
+        "name": "Grom",
+        "address": "16 rue Vieille du Temple, Paris, 75004",
+        "work_time": "Ouvert jusqu'à 23:30"
+    },
+    {
+        "specialties": [
+            "Burgers",
+            "Américain"
+        ],
+        "link": "https://deliveroo.fr/fr/menu/paris/11eme-nation/lechoppe-de-paris?day=today&rpos=16&time=ASAP",
+        "id": "22760",
+        "description": "Nos burgers maison & originaux - Pain artisanal recette maison - Sauces maison - Viande française charolaise 125g sauf le Veggie et le saumon - Accompagnés de frites maison & saladeRead more",
+        "phone": "+33153279539",
+        "logo": "",
+        "name": "L'Echoppe de Paris",
+        "address": "16 Rue Léon Frot, Paris, 75011",
+        "work_time": "Ouvert jusqu'à 23:00"
+    },
+    {
+        "specialties": [
+            "Français",
+            "Brasserie",
+            "Cocktails"
+        ],
+        "link": "https://deliveroo.fr/fr/menu/paris/4eme-hotel-de-ville/le-saint-regis-bdcl?day=today&rpos=17&time=ASAP",
+        "id": "26742",
+        "description": "Découvrez nos cocktails à shaker vous-même et une belle sélection de vins pour accompagner nos plats gourmets, burgers généreux  et desserts gourmands.Read more",
+        "phone": "+33143545941",
+        "logo": "",
+        "name": "Le Saint Regis",
+        "address": "6 rue Jean du Bellay, Paris, 75004",
+        "work_time": "Ouvert jusqu'à 23:00"
+    },
+    {
+        "specialties": [
+            "Français",
+            "Crêperie"
+        ],
+        "link": "https://deliveroo.fr/fr/menu/paris/11eme-belleville/creperie-elo?day=today&rpos=18&time=ASAP",
+        "id": "18767",
+        "description": "Salés ou sucrés, les crêpes et galettes sont faites maison et sont servies avec des produits frais et des fruits & légumes du primeur, ajoutez à votre repas un jus maison.Read more",
+        "phone": "+33986213222",
+        "logo": "",
+        "name": "Crêperie Elo",
+        "address": "43 avenue de la république, Paris, 75011",
+        "work_time": "Ouvert jusqu'à 23:45"
+    },
+    {
+        "specialties": [
+            "Glaces",
+            "Dessert",
+            "Italien"
+        ],
+        "link": "https://deliveroo.fr/fr/menu/paris/Bercy/amorino-saint-emilion?day=today&rpos=19&time=ASAP",
+        "id": "16855",
+        "description": "Glace italienne d’Excellence, 100% issue de produits naturels et d’ingrédients sélectionnés, sans colorant, ni arôme artificiel. Découvrez nos coffrets isothermes et nos Macarons al Gelato.Read more",
+        "phone": "+33607302195",
+        "logo": "",
+        "name": "Amorino Bercy",
+        "address": "Cour Saint Emilion (Passage Saint Vivant N°22), Paris, 75012",
+        "work_time": "Ouvert jusqu'à 23:30"
+    },
+    {
+        "specialties": [
+            "Thaï",
+            "Asiatique"
+        ],
+        "link": "https://deliveroo.fr/fr/menu/paris/11eme-bastille/street-bangkok-bastille?day=today&rpos=20&time=ASAP",
+        "id": "41936",
+        "description": "A Bangkok, on mange de la viande pour la force, des épices pour l’énergie, des légumes pour l’équilibre, des céréales pour l’endurance.\r\nDans Street, il y a un peu de tout ça...Read more",
+        "phone": "+33983730083",
+        "logo": "",
+        "name": "Street Bangkok Bastille",
+        "address": "13 rue de la Roquette, Paris, 75011",
+        "work_time": "Ouvert jusqu'à 23:00"
+    },
+    {
+        "specialties": [
+            "Indien",
+            "Pakistanais",
+            "Asiatique"
+        ],
+        "link": "https://deliveroo.fr/fr/menu/paris/11eme-bastille/restaurant-taj?day=today&rpos=21&time=ASAP",
+        "id": "28308",
+        "description": "Cuisine traditionnelle indo-pakistanaiseRead more",
+        "phone": "+33143558426",
+        "logo": "",
+        "name": "Restaurant Taj",
+        "address": "19 Rue de la Roquette, Paris, 75011",
+        "work_time": "Ouvert jusqu'à 23:15"
+    },
+    {
+        "specialties": [
+            "Thaï",
+            "Asiatique"
+        ],
+        "link": "https://deliveroo.fr/fr/menu/paris/11eme-nation/noy-noy?day=today&rpos=22&time=ASAP",
+        "id": "6716",
+        "description": "Chez Noy Noy, on redécouvre les saveurs de la gastronomie thaïlandaise, des currys classiques ainsi que des plats plus rares de tradition royaleRead more",
+        "phone": "+33143674177",
+        "logo": "",
+        "name": "Noy Noy",
+        "address": "31 Rue Léon Frot, Paris, 75011",
+        "work_time": "Ouvert jusqu'à 23:15"
+    },
+    {
+        "specialties": [
+            "Bobun",
+            "Vietnamien"
+        ],
+        "link": "https://deliveroo.fr/fr/menu/paris/11eme-republique/mission-saigon?day=today&rpos=23&time=ASAP",
+        "id": "52962",
+        "description": "Cuisine traditionnelle Vietnamienne à base de produits frais et locaux préparés minute dans notre Viêt Kitchen du 11ème - Découvrez le délicieux Mission Bo Bun et autres spécialités !Read more",
+        "phone": "+33663598608",
+        "logo": "",
+        "name": "Mission Saïgon - Viêt Kitchen",
+        "address": "7 rue du Grand Prieuré, Paris, 75011",
+        "work_time": "Ouvert jusqu'à 22:30"
+    },
+    {
+        "specialties": [
+            "Américain",
+            "Burgers",
+            "Bagels"
+        ],
+        "link": "https://deliveroo.fr/fr/menu/paris/11eme-bastille/bens?day=today&rpos=24&time=ASAP",
+        "id": "25943",
+        "description": "Ben's vous propose un panel de burgers et autres spécialités accompagnés de frites fraîches. Tout est fait maison et sous vos yeuxRead more",
+        "phone": "+33143413514",
+        "logo": "",
+        "name": "Ben's",
+        "address": "19 Rue du Faubourg Saint-Antoine, Paris, 75011",
+        "work_time": "Ouvert jusqu'à 23:30"
+    },
+    {
+        "specialties": [
+            "Italien",
+            "Pizza"
+        ],
+        "link": "https://deliveroo.fr/fr/menu/paris/11eme-bastille/da-vito?day=today&rpos=25&time=ASAP",
+        "id": "26083",
+        "description": "Cuisine familiale maisonRead more",
+        "phone": "+33950731299",
+        "logo": "",
+        "name": "Da vito",
+        "address": "5 rue sedaine, Paris, 75011",
+        "work_time": "Ouvert jusqu'à 23:30"
+    },
+    {
+        "specialties": [
+            "Thaï",
+            "Asiatique"
+        ],
+        "link": "https://deliveroo.fr/fr/menu/paris/11eme-bastille/blue-elephant-paris?day=today&rpos=26&time=ASAP",
+        "id": "2339",
+        "description": "Sawasdee et bienvenue au Blue Elephant, le restaurant qui vous apporte la cuisine royale Thaïe depuis 1980.Read more",
+        "phone": "+33147004200",
+        "logo": "",
+        "name": "Blue Elephant - Paris",
+        "address": "45 rue de la Roquette, Paris, 75011",
+        "work_time": "Ouvert jusqu'à 22:30"
+    },
+    {
+        "specialties": [
+            "Indien"
+        ],
+        "link": "https://deliveroo.fr/fr/menu/paris/11eme-bastille/etoile-du-kashmir?day=today&rpos=27&time=ASAP",
+        "id": "17623",
+        "description": "Goûtez à la cuisine indienne traditionnelle Read more",
+        "phone": "+33143555760",
+        "logo": "",
+        "name": "Etoile Du Kashmir",
+        "address": "63 Rue de Charonne, Paris, 75011",
+        "work_time": "Ouvert jusqu'à 23:20"
+    },
+    {
+        "specialties": [
+            "Indien"
+        ],
+        "link": "https://deliveroo.fr/fr/menu/paris/11eme-bastille/katmandou-cafe?day=today&rpos=28&time=ASAP",
+        "id": "26203",
+        "description": "Cuisine savoureuse, parfumée, épicée, parfois relevéeRead more",
+        "phone": "+33148053636",
+        "logo": "",
+        "name": "Katmandou Café",
+        "address": "14 rue Bréguet, Paris, 75011",
+        "work_time": "Ouvert jusqu'à 23:30"
+    },
+    {
+        "specialties": [
+            "Italien",
+            "Pâtes Fraîches",
+            "Piadina"
+        ],
+        "link": "https://deliveroo.fr/fr/menu/paris/Reuilly-Diderot/les-rendez-vous-italiens?day=today&rpos=29&time=ASAP",
+        "id": "13879",
+        "description": "Les rendez-vous italiens vous propose une spécialité de la région d'Emilie Romagne: La Piadina, délicieuse galette fine et savoureuse garnie des meilleurs produits italiens (charcuteries, légumes grillés, parmesan...) et des pâtes fraîches faites maison.Read more",
+        "phone": "+33660628196",
+        "logo": "",
+        "name": "Les rendez-vous italiens",
+        "address": "152 rue Charenton, Paris, 75012",
+        "work_time": "Ouvert jusqu'à 23:30"
+    },
+    {
+        "specialties": [
+            "Thaï"
+        ],
+        "link": "https://deliveroo.fr/fr/menu/paris/11eme-nation/mme-shawn-11eme?day=today&rpos=30&time=ASAP",
+        "id": "2411",
+        "description": "Mme Shawn conçoit ses plats en mêlant tradition et création. Sucrés-salés ou relevés, ils se composent de produits frais directement importés de Thaïlande. Pensez à sélectionner un accompagnement avec les plats.Read more",
+        "phone": "+33143726314",
+        "logo": "",
+        "name": "Mme Shawn",
+        "address": "23 rue Paul Bert, Paris, 75011",
+        "work_time": "Ouvert jusqu'à 23:00"
+    },
+    {
+        "specialties": [
+            "Thaï"
+        ],
+        "link": "https://deliveroo.fr/fr/menu/paris/4eme-hotel-de-ville/tamarind-thai?day=today&rpos=31&time=ASAP",
+        "id": "14665",
+        "description": "Entre tradition et modernité, le restaurant Tamarind, situé dans le quartier du Marais a su s’imposer en peu de temps comme le lieu préféré des connaisseurs et amateurs de véritable cuisine Thaï.Read more",
+        "phone": "+33148873420",
+        "logo": "",
+        "name": "Tamarind Thai",
+        "address": "33 Rue François Miron, Paris, 75004",
+        "work_time": "Ouvert jusqu'à 23:00"
+    },
+    {
+        "specialties": [
+            "Européen",
+            "British"
+        ],
+        "link": "https://deliveroo.fr/fr/menu/paris/11eme-nation/the-green-goose?day=today&rpos=32&time=ASAP",
+        "id": "14599",
+        "description": "La gastronomie irlandaise vient à vous grâce au restaurant \"The Green Goose\".   Read more",
+        "phone": "+33982377341",
+        "logo": "",
+        "name": "The Green Goose",
+        "address": "19 Rue des Boulets, Paris, 75011",
+        "work_time": "Ouvert jusqu'à 23:00"
+    },
+    {
+        "specialties": [
+            "Burgers",
+            "Français",
+            "Salade"
+        ],
+        "link": "https://deliveroo.fr/fr/menu/paris/Passerelle/la-mere-pouchet?day=today&rpos=33&time=ASAP",
+        "id": "46916",
+        "description": "Tout est fait maisonRead more",
+        "phone": "+33143438766",
+        "logo": "",
+        "name": "La Mère Pouchet",
+        "address": "168 boulevard Diderot, Paris, 75012",
+        "work_time": "Ouvert jusqu'à 22:45"
+    },
+    {
+        "specialties": [
+            "Thaï",
+            "Asiatique"
+        ],
+        "link": "https://deliveroo.fr/fr/menu/paris/11eme-oberkampf/q-bar?day=today&rpos=34&time=ASAP",
+        "id": "16708",
+        "description": "Bienvenue au Qbar, votre Brasserie Thaïlandaise du 11ème arrondissement de Paris. Venez découvrir toutes les saveurs de la cuisine Thaïlandaise !Read more",
+        "phone": "+33143670621",
+        "logo": "",
+        "name": "Q Bar",
+        "address": "155 rue de la roquette, Paris, 75011",
+        "work_time": "Ouvert jusqu'à 22:30"
+    },
+    {
+        "specialties": [
+            "Oriental",
+            "Marocain",
+            "Méditerranéen"
+        ],
+        "link": "https://deliveroo.fr/fr/menu/paris/11eme-belleville/yemma?day=today&rpos=35&time=ASAP",
+        "id": "36945",
+        "description": "La gastronomie marocaine revisitée à la cool par des aficionados de la street-food !Read more",
+        "phone": "+33148056707",
+        "logo": "",
+        "name": "Yemma",
+        "address": "119 Rue du Chemin Vert, Paris, 75011",
+        "work_time": "Ouvert jusqu'à 22:45"
+    },
+    {
+        "specialties": [
+            "Sushi",
+            "Japonais"
+        ],
+        "link": "https://deliveroo.fr/fr/menu/paris/Reuilly-Diderot/sushi-mania?day=today&rpos=36&time=ASAP",
+        "id": "13421",
+        "description": "Crée en 2002, Sushi Mania vous fait découvrir les délices de la cuisine japonaise: Sushis, makis, sashiis...On y goute et on adore ! Read more",
+        "phone": "+33143079288",
+        "logo": "",
+        "name": "Sushi Mania",
+        "address": "136 Avenue Daumesnil, Paris, 75012",
+        "work_time": "Ouvert jusqu'à 22:30"
+    },
+    {
+        "specialties": [
+            "Pizza",
+            "Américain",
+            "Halal"
+        ],
+        "link": "https://deliveroo.fr/fr/menu/paris/paris-20eme-menilmontant/parker-pizza?day=today&rpos=37&time=ASAP",
+        "id": "11477",
+        "description": "Parker Pizza ce sont des pizzas 100% à base de produits frais !Read more",
+        "phone": "+33142523942",
+        "logo": "",
+        "name": "Parker Pizza",
+        "address": "3 rue des cendriers, Paris, 75020",
+        "work_time": "Ouvert jusqu'à 23:30"
+    },
+    {
+        "specialties": [
+            "Burgers",
+            "Américain"
+        ],
+        "link": "https://deliveroo.fr/fr/menu/paris/Aligre/ellis-gourmet-bastille?day=today&rpos=38&time=ASAP",
+        "id": "42539",
+        "description": "Ellis Gourmet Burgers est créée en 2011 en Belgique par 5 amis recherchant le burger parfait. Pour cela, ils utilisent les meilleurs ingrédients et s'appuient sur des chefs renommés et des spécialistes tels que des fromager-affineurs et bouchers stars. Read more",
+        "phone": "+33143140830",
+        "logo": "",
+        "name": "Ellis Gourmet Burger",
+        "address": "58 rue du faubourg Saint Antoine, Paris, 75012",
+        "work_time": "Ouvert jusqu'à 23:00"
+    },
+    {
+        "specialties": [
+            "Pizza",
+            "Italien",
+            "Pâtes Fraîches"
+        ],
+        "link": "https://deliveroo.fr/fr/menu/paris/11eme-bastille/nove?day=today&rpos=39&time=ASAP",
+        "id": "14443",
+        "description": "Défenseur de la cuisine italienne familiale, nous avons fait le choix de ne privilégier que des produits authentiques et artisanaux.Read more",
+        "phone": "+33143578326",
+        "logo": "",
+        "name": "Nove",
+        "address": "9 rue de Charonne, Paris, 75011",
+        "work_time": "Ouvert jusqu'à 22:50"
+    },
+    {
+        "specialties": [
+            "Japonais",
+            "Sushi",
+            "Asiatique"
+        ],
+        "link": "https://deliveroo.fr/fr/menu/paris/11eme-bastille/shook?day=today&rpos=40&time=ASAP",
+        "id": "13367",
+        "description": "Californias, sashimis, yakitoris, sushis, makis ou encore temakis, toutes les spécialités de la cuisine japonaise sont au rendez-vousRead more",
+        "phone": "+33148052066",
+        "logo": "",
+        "name": "Shook",
+        "address": "8 rue de la roquette, Paris, 75011",
+        "work_time": "Ouvert jusqu'à 22:45"
+    },
+    {
+        "specialties": [
+            "Oriental",
+            "Marocain",
+            "Méditerranéen"
+        ],
+        "link": "https://deliveroo.fr/fr/menu/paris/Reuilly-Diderot/dahlia-tajines-and-co?day=today&rpos=41&time=ASAP",
+        "id": "18246",
+        "description": "Découvrez l’art des épices, des herbes et des eaux de fleurs qui sont au coeur de notre cuisine marocaine. Nous préparons quotidiennement une sélection de tajines cuits au feu doux et couscous à la vapeur.Read more",
+        "phone": "+33143073124",
+        "logo": "",
+        "name": "Tajines & Co",
+        "address": "154 rue de Charenton, Paris, 75012",
+        "work_time": "Ouvert jusqu'à 23:30"
+    },
+    {
+        "specialties": [
+            "Thaï",
+            "Bobun"
+        ],
+        "link": "https://deliveroo.fr/fr/menu/paris/4eme-hotel-de-ville/khao-thai?day=today&rpos=42&time=ASAP",
+        "id": "4162",
+        "description": "Un petit bout d’Asie en plein coeur de Paris. Khao Thaï vous propose une cuisine dans les règles de l’art de la tradition thaï avec des plats relevés au curry panang ou au basilic thaï qui vous régaleront.Read more",
+        "phone": "+33142713708",
+        "logo": "",
+        "name": "Khao Thaï",
+        "address": "10 Rue de Sévigné, Paris, 75004PARIS",
+        "work_time": "Ouvert jusqu'à 22:30"
+    },
+    {
+        "specialties": [
+            "Français",
+            "Brasserie",
+            "Cocktails"
+        ],
+        "link": "https://deliveroo.fr/fr/menu/paris/4eme-hotel-de-ville/la-favorite-bdc?day=today&rpos=43&time=ASAP",
+        "id": "30842",
+        "description": "Découvrez nos cocktails à shaker vous-même et une belle sélection de vins pour accompagner nos plats gourmets, burgers généreux  et desserts gourmandsRead more",
+        "phone": "+33142785648",
+        "logo": "",
+        "name": "La Favorite",
+        "address": "6 rue de Rivoli, Paris, 75004",
+        "work_time": "Ouvert jusqu'à 23:00"
+    },
+    {
+        "specialties": [
+            "Oriental"
+        ],
+        "link": "https://deliveroo.fr/fr/menu/paris/4eme-hotel-de-ville/king-falafel-palace?day=today&rpos=44&time=ASAP",
+        "id": "42137",
+        "description": "Le roi du falafel, situé dans la Rue des Rosiers, au coeur du Marais, King Falafel Palace vous propose un large choix de spécialités israeliennes telles que: pita, boulettes de pois chiches (les dits falafel), houmous ... Un régal !Read more",
+        "phone": "+33142779313",
+        "logo": "",
+        "name": "King Falafel Palace",
+        "address": "26, rue des rosiers, Paris, 75004",
+        "work_time": "Ouvert jusqu'à 23:00"
+    },
+    {
+        "specialties": [
+            "Sushi",
+            "Cacher",
+            "Japonais"
+        ],
+        "link": "https://deliveroo.fr/fr/menu/paris/11eme-nation/nina-sushi-voltaire?day=today&rpos=45&time=ASAP",
+        "id": "22196",
+        "description": "Le goût est un art. L'art est notre métier.Read more",
+        "phone": "+33142390438",
+        "logo": "",
+        "name": "Nina Sushi",
+        "address": "213 Boulevard Voltaire, Paris, 75011",
+        "work_time": "Ouvert jusqu'à 22:45"
+    },
+    {
+        "specialties": [
+            "Américain"
+        ],
+        "link": "https://deliveroo.fr/fr/menu/paris/4eme-hotel-de-ville/les-pinces?day=today&rpos=46&time=ASAP",
+        "id": "1884",
+        "description": "Lors de ce voyage aller pour Boston, Les Pinces vous invite à déguster le must du homard, sublimé dans son pain toasté minute et trempé inconsciemment de sa sauce 100% maison. Une folie ! Read more",
+        "phone": "+33983564793",
+        "logo": "",
+        "name": "Les Pinces",
+        "address": "29 Rue du Bourg Tibourg, Paris, 75004",
+        "work_time": "Ouvert jusqu'à 22:30"
+    },
+    {
+        "specialties": [
+            "Burgers",
+            "Américain"
+        ],
+        "link": "https://deliveroo.fr/fr/menu/paris/11eme-voltaire/le-clint?day=today&rpos=47&time=ASAP",
+        "id": "40100",
+        "description": "Venez tester la nouvelle carte du Clint !Read more",
+        "phone": "+33171932081",
+        "logo": "",
+        "name": "Le Clint",
+        "address": "174 rue de la roquette, Paris, 75011",
+        "work_time": "Ouvert jusqu'à 23:00"
+    },
+    {
+        "specialties": [
+            "Burgers",
+            "Français",
+            "Salade"
+        ],
+        "link": "https://deliveroo.fr/fr/menu/paris/11eme-nation/cafe-dalbert?day=today&rpos=48&time=ASAP",
+        "id": "46491",
+        "description": "Un vrai café parisienRead more",
+        "phone": "+33143483787",
+        "logo": "",
+        "name": "Café d'Albert",
+        "address": "109 boulevard de Charonne, Paris, 75011",
+        "work_time": "Ouvert jusqu'à 23:30"
+    },
+    {
+        "specialties": [
+            "Français",
+            "Rôtisserie",
+            "Poulet",
+            "Salade"
+        ],
+        "link": "https://deliveroo.fr/fr/menu/paris/11eme-republique/jeanne-a?day=today&rpos=49&time=ASAP",
+        "id": "31021",
+        "description": "Notre spécialité ? Des viandes tendrement travaillées et délicatement rôties. \r\nPoulet pattes noires de Challans, Agneau des Pyrénées, cuisses de canard, carré de Bœuf, saucisses de Morteau ou bien encore cochon de Lait… toutes nos viandes sont d'origine française ou européenne. \r\nElles sont accompagnées d'un gratin dauphinois crémeux et d'une salade mélangée.Read more",
+        "phone": "+33143550949",
+        "logo": "",
+        "name": "Jeanne A",
+        "address": "42 rue Jean Pierre Timbaud, Paris, 75011",
+        "work_time": "Ouvert jusqu'à 22:00"
+    },
+    {
+        "specialties": [
+            "Burgers",
+            "Américain",
+            "Halal"
+        ],
+        "link": "https://deliveroo.fr/fr/menu/paris/paris-20eme-pere-lachaise/poivron-rouge?day=today&rpos=50&time=ASAP",
+        "id": "38880",
+        "description": "Poivron Rouge, c'est un bun's artisanal, un steak haché halal et des ingrédients soigneusement sélectionnés, que demander de plus?Read more",
+        "phone": "+33143721716",
+        "logo": "",
+        "name": "Poivron Rouge",
+        "address": "86 boulevard de Charonne, Paris, 75020",
+        "work_time": "Ouvert jusqu'à 23:30"
+    },
+    {
+        "specialties": [
+            "Japonais",
+            "Sushi"
+        ],
+        "link": "https://deliveroo.fr/fr/menu/paris/Bercy/sushi-yuki?day=today&rpos=51&time=ASAP",
+        "id": "45958",
+        "description": "Sushi Yuki vous propose une cuisine Japonaise typique qui reprend les meilleures saveurs d'Asie !Read more",
+        "phone": "+33143438357",
+        "logo": "",
+        "name": "Sushi Yuki",
+        "address": "20 rue baron le roy, Paris, 75012",
+        "work_time": "Ouvert jusqu'à 22:30"
+    },
+    {
+        "specialties": [
+            "Italien",
+            "Pizza",
+            "Pâtes Fraîches"
+        ],
+        "link": "https://deliveroo.fr/fr/menu/paris/paris-20eme-pere-lachaise/pezzo?day=today&rpos=52&time=ASAP",
+        "id": "3338",
+        "description": "La pizza Pezzo offre une pâte d’une légèreté exceptionnelle, au croquant unique et aux qualités gustatives. Toutes nos pâtes et nos pizzas sont faites maison, bon appétit !Read more",
+        "phone": "+33143736096",
+        "logo": "",
+        "name": "Pezzo",
+        "address": "52 Boulevard de Charonne, Paris, 75020",
+        "work_time": "Ouvert jusqu'à 22:30"
+    },
+    {
+        "specialties": [
+            "Cambodgien",
+            "Asiatique"
+        ],
+        "link": "https://deliveroo.fr/fr/menu/paris/Montgallet/le-cambodge?day=today&rpos=53&time=ASAP",
+        "id": "40008",
+        "description": "Cuisine traditionnelle cambodgienneRead more",
+        "phone": "+33143469662",
+        "logo": "",
+        "name": "Le Cambodge",
+        "address": "8 Rue de Wattignies, Paris, 75012",
+        "work_time": "Ouvert jusqu'à 22:30"
+    },
+    {
+        "specialties": [
+            "Japonais",
+            "Sushi"
+        ],
+        "link": "https://deliveroo.fr/fr/menu/paris/11eme-bastille/theatitude?day=today&rpos=54&time=ASAP",
+        "id": "50393",
+        "description": "Tous les produits y sont frais et préparés à la commande. Deux Chefs aux spécialités japonaises bien distinctes sont là pour vous concocter les meilleurs plats.Read more",
+        "phone": "+33143574105",
+        "logo": "",
+        "name": "Boutj'Dao",
+        "address": "44 rue Sedaine, Paris, 75011",
+        "work_time": "Ouvert jusqu'à 22:30"
+    },
+    {
+        "specialties": [
+            "Vietnamien",
+            "Bobun"
+        ],
+        "link": "https://deliveroo.fr/fr/menu/paris/Passerelle/trois-crabes?day=today&rpos=55&time=ASAP",
+        "id": "17002",
+        "description": "Venez redécouvrir les saveurs du Vietnam !Read more",
+        "phone": "+33143718913",
+        "logo": "",
+        "name": "Trois Crabes",
+        "address": "17 rue Claude Tillier, Paris, 75012",
+        "work_time": "Ouvert jusqu'à 22:30"
+    },
+    {
+        "specialties": [
+            "Indien"
+        ],
+        "link": "https://deliveroo.fr/fr/menu/paris/Picpus/jodhpur-palace?day=today&rpos=56&time=ASAP",
+        "id": "34668",
+        "description": "Nous vous proposons une cuisine traditionnelle et authentique à l’image de la ville de Jodhpur. Notre restaurant est un hommage à cette ville réputée pour sa cuisine royale et son art de vivre.Read more",
+        "phone": "+33143407246",
+        "logo": "",
+        "name": "Jodhpur Palace",
+        "address": "42 Allée Vivaldi, Paris, 75012",
+        "work_time": "Ouvert jusqu'à 22:30"
+    },
+    {
+        "specialties": [
+            "Belge",
+            "Fruits De Mer"
+        ],
+        "link": "https://deliveroo.fr/fr/menu/paris/11eme-republique/leon-de-bruxelles-republique?day=today&rpos=57&time=ASAP",
+        "id": "52499",
+        "description": "Léon de Bruxelles faisant la part belle aux moules, frites et gaufres, le tout frais et « fait maison ».Read more",
+        "phone": "+33143382869",
+        "logo": "",
+        "name": "Léon de Bruxelles",
+        "address": "8 pllace de la république, Paris, 75011",
+        "work_time": "Ouvert jusqu'à 23:00"
+    },
+    {
+        "specialties": [
+            "Africain",
+            "Halal",
+            "International"
+        ],
+        "link": "https://deliveroo.fr/fr/menu/paris/11eme-belleville/le-khelkom?day=today&rpos=58&time=ASAP",
+        "id": "15605",
+        "description": "Venez découvrir le Thieboudienne (plat national du Sénégal), le fameux Dibi (viande grillé) ou le poisson braisé comme si vous étiez à Dakar. Toutes nos viandes sont Halal.Read more",
+        "phone": "+33143140059",
+        "logo": "",
+        "name": "Le Khelkom",
+        "address": "88 Rue Jean-Pierre Timbaud, Paris, 75011",
+        "work_time": "Ouvert jusqu'à 23:30"
+    },
+    {
+        "specialties": [
+            "Italien",
+            "Pizza"
+        ],
+        "link": "https://deliveroo.fr/fr/menu/paris/Belleville/tripletta?day=today&rpos=59&time=ASAP",
+        "id": "29655",
+        "description": "La pizzeria napolitaine de Belleville qui sent bon l’Italie, la pizza qui sort tout juste du four et le Spritz !Read more",
+        "phone": "+33142547280",
+        "logo": "",
+        "name": "Tripletta",
+        "address": "88 Boulevard de Belleville, Paris, 75020",
+        "work_time": "Ouvert jusqu'à 22:45"
+    },
+    {
+        "specialties": [
+            "Italien",
+            "Pizza"
+        ],
+        "link": "https://deliveroo.fr/fr/menu/paris/11eme-bastille/mio-posto?day=today&rpos=60&time=ASAP",
+        "id": "52082",
+        "description": "Pour les amoureux de la gastronomie italienne !Read more",
+        "phone": "+33148054723",
+        "logo": "",
+        "name": "🍕Mio Posto",
+        "address": "24 rue Keller, Paris, 75011",
+        "work_time": "Ouvert jusqu'à 22:45"
+    },
+    {
+        "specialties": [
+            "Indien"
+        ],
+        "link": "https://deliveroo.fr/fr/menu/paris/Passerelle/curry-villa?day=today&rpos=61&time=ASAP",
+        "id": "20368",
+        "description": "Les saveurs de la cuisine indienne, finement relevée et épicéeRead more",
+        "phone": "+33143433329",
+        "logo": "",
+        "name": "Curry Villa",
+        "address": "15 Rue de Chaligny, Paris, 75012",
+        "work_time": "Ouvert jusqu'à 22:45"
+    },
+    {
+        "specialties": [
+            "Italien",
+            "Pâtes Fraîches"
+        ],
+        "link": "https://deliveroo.fr/fr/menu/paris/Passerelle/les-amis-des-messina-12eme?day=today&rpos=62&time=ASAP",
+        "id": "3122",
+        "description": "Les spécialités Siciliennes de chez Les Amis des Messina sont à la fois riches et fines; elles laissent une empreinte indélébile dans la bouche de ceux qui ont la chance de les savourer.Read more",
+        "phone": "+33143679601",
+        "logo": "",
+        "name": "Les Amis Des Messina 12ème",
+        "address": "204 rue du Faubourg Saint-Antoine, Paris, 75012",
+        "work_time": "Ouvert jusqu'à 22:30"
+    },
+    {
+        "specialties": [
+            "Sushi",
+            "Cacher",
+            "Asiatique",
+            "Chinois"
+        ],
+        "link": "https://deliveroo.fr/fr/menu/paris/11eme-republique/owoks-voltaire?day=today&rpos=63&time=ASAP",
+        "id": "37800",
+        "description": "",
+        "phone": "+33148065555",
+        "logo": "",
+        "name": "O'woks",
+        "address": "58 Boulevard Voltaire, Paris, 75011",
+        "work_time": "Ouvert jusqu'à 22:15"
+    },
+    {
+        "specialties": [
+            "Sushi",
+            "Japonais"
+        ],
+        "link": "https://deliveroo.fr/fr/menu/paris/11eme-republique/davenir-sushi-bar?day=today&rpos=64&time=ASAP",
+        "id": "12991",
+        "description": "Chez d'Avenir Sushi Bar, découvrez les plaisirs de la cuisine traditionnelle japonaise : soupes, nems, sashimis, yakitoris ... vous aurez l'embarras du choix !Read more",
+        "phone": "+33143387702",
+        "logo": "",
+        "name": "D'Avenir Sushi Bar",
+        "address": "24 rue de la Folie Mericourt, Paris, 75011",
+        "work_time": "Ouvert jusqu'à 22:40"
+    },
+    {
+        "specialties": [
+            "Français",
+            "Crêperie",
+            "Européen"
+        ],
+        "link": "https://deliveroo.fr/fr/menu/paris/Picpus/paris-breizh?day=today&rpos=65&time=ASAP",
+        "id": "3145",
+        "description": "Un aller simple pour la Bretagne et ses spécialités. On se régale de galettes bio sans gluten et crêpes sucrées!Read more",
+        "phone": "+33143451610",
+        "logo": "",
+        "name": "Paris Breizh",
+        "address": "177 avenue Daumesnil, Paris, 75012",
+        "work_time": "Ouvert jusqu'à 22:15"
+    },
+    {
+        "specialties": [
+            "Américain",
+            "Burgers"
+        ],
+        "link": "https://deliveroo.fr/fr/menu/paris/11eme-bastille/blend-charonne?day=today&rpos=66&time=ASAP",
+        "id": "48319",
+        "description": "Blend rassemble autour de hamburgers gourmets aux buns maison cuits deux fois par jour par ses boulangers, et d’une viande d’Yves-Marie le Bourdonnec, fraîchement hachée sur place.\r\nFrites, frites de patate douce et coleslaw 100% maison.Read more",
+        "phone": "+33148071078",
+        "logo": "",
+        "name": "Blend - Charonne",
+        "address": "15 rue de Charonne, Paris, 75011",
+        "work_time": "Ouvert jusqu'à 22:50"
+    },
+    {
+        "specialties": [
+            "Français",
+            "Bistro",
+            "Pâtes Fraîches"
+        ],
+        "link": "https://deliveroo.fr/fr/menu/paris/3eme-temple/les-bonnes-soeurs?day=today&rpos=67&time=ASAP",
+        "id": "26845",
+        "description": "",
+        "phone": "+33142745580",
+        "logo": "",
+        "name": "Les Bonnes Sœurs",
+        "address": "8 Rue du Pas de la Mule, Paris, 75003",
+        "work_time": "Ouvert jusqu'à 22:45"
+    },
+    {
+        "specialties": [
+            "Oriental",
+            "Marocain",
+            "Méditerranéen"
+        ],
+        "link": "https://deliveroo.fr/fr/menu/paris/11eme-bastille/le-mansouria?day=today&rpos=68&time=ASAP",
+        "id": "2311",
+        "description": "Une institution dans le 11ème, le Mansouria nous offre un voyage au cœur de l’Orient. Des spécialités telles que des tajines, couscous, briwattes, crème à la fleur d’oranger sont préparées par d’habiles cuisinières marocaines !Read more",
+        "phone": "+33143710016",
+        "logo": "",
+        "name": "Le Mansouria",
+        "address": "11 Rue Faidherbe, Paris, 75011",
+        "work_time": "Ouvert jusqu'à 22:30"
+    },
+    {
+        "specialties": [
+            "Français",
+            "Européen",
+            "Brunch"
+        ],
+        "link": "https://deliveroo.fr/fr/menu/paris/11eme-republique/auberg-flora?day=today&rpos=69&time=ASAP",
+        "id": "11816",
+        "description": "Le chef Flora Mikula vous propose son brunch avec ses délicieux produits du terroir teintés de soleil.Read more",
+        "phone": "+33147005277",
+        "logo": "",
+        "name": "Auberge Flora",
+        "address": "44 boulevard Richard Lenoir, Paris, 75011",
+        "work_time": "Ouvert jusqu'à 22:30"
+    },
+    {
+        "specialties": [
+            "Américain",
+            "Burgers",
+            "Cacher"
+        ],
+        "link": "https://deliveroo.fr/fr/menu/paris/11eme-voltaire/moses?day=today&rpos=70&time=ASAP",
+        "id": "22007",
+        "description": "L'authentique deli new-yorkais en version cachère sous surveillance.Read more",
+        "phone": "+33172380153",
+        "logo": "",
+        "name": "Moses",
+        "address": "144 Boulevard Voltaire, Paris, 75011",
+        "work_time": "Ouvert jusqu'à 22:15"
+    },
+    {
+        "specialties": [
+            "Américain",
+            "Burgers"
+        ],
+        "link": "https://deliveroo.fr/fr/menu/paris/3eme-temple/blend-beaumarchais-new?day=today&rpos=71&time=ASAP",
+        "id": "42166",
+        "description": "Blend rassemble autour de hamburgers gourmets aux buns maison cuits deux fois par jour par ses boulangers, et d’une viande d’Yves-Marie le Bourdonnec, fraîchement hachée sur place.\r\nFrites, frites de patate douce et coleslaw 100% maison.Read more",
+        "phone": "+33144782893",
+        "logo": "",
+        "name": "Blend - Beaumarchais",
+        "address": "1 boulevard des Filles du Calvaire, Paris, 75003",
+        "work_time": "Ouvert jusqu'à 22:50"
+    },
+    {
+        "specialties": [
+            "Fruits De Mer",
+            "Français"
+        ],
+        "link": "https://deliveroo.fr/fr/menu/paris/11eme-nation/vin-and-maree-nation?day=today&rpos=72&time=ASAP",
+        "id": "26553",
+        "description": "Vin & Marée vous propose ses spécialités de poissons, de fruits de mer et sa carte de Grands Crus.Read more",
+        "phone": "+33143723123",
+        "logo": "",
+        "name": "Vin & Maree",
+        "address": "276 Boulevard Voltaire, Paris, 75011",
+        "work_time": "Ouvert jusqu'à 22:00"
+    },
+    {
+        "specialties": [
+            "Burgers",
+            "Américain"
+        ],
+        "link": "https://deliveroo.fr/fr/menu/paris/11eme-belleville/paris-new-york?day=today&rpos=73&time=ASAP",
+        "id": "23940",
+        "description": "Hamburger de qualité ! Une viande bretonne d'exception hachée sur place. Des petits pains à la recette secrète. Des recettes addictives. Read more",
+        "phone": "+33984378150",
+        "logo": "",
+        "name": "Paris New York",
+        "address": "96 Rue Oberkampf, Paris, 75011",
+        "work_time": "Ouvert jusqu'à 23:00"
+    },
+    {
+        "specialties": [
+            "Burgers",
+            "Halal",
+            "Bio",
+            "Américain"
+        ],
+        "link": "https://deliveroo.fr/fr/menu/paris/11eme-republique/rosa-parks?day=today&rpos=74&time=ASAP",
+        "id": "34467",
+        "description": "Vous désirez un burger original, qui respire le fait-maison et qui détonne, alors vous faites le bon choix. Une cuisine bio, des frites fraiches et une viande française bio...la qualité et le goût réunis !Read more",
+        "phone": "+33148070955",
+        "logo": "",
+        "name": "Rosaparks",
+        "address": "46 rue Jean-Pierre Timbaud, Paris, 75011",
+        "work_time": "Ouvert jusqu'à 23:00"
+    },
+    {
+        "specialties": [
+            "Français"
+        ],
+        "link": "https://deliveroo.fr/fr/menu/paris/Bercy/boco-bercy?day=today&rpos=75&time=ASAP",
+        "id": "4263",
+        "description": "Boco est un restaurant qui propose un menu conçu par des grands chefs dans des bocauxRead more",
+        "phone": "+33146289660",
+        "logo": "",
+        "name": "Boco",
+        "address": "45 Cours Saint Emilion, Paris, 75012",
+        "work_time": "Ouvert jusqu'à 22:30"
+    },
+    {
+        "specialties": [
+            "Indien",
+            "Asiatique"
+        ],
+        "link": "https://deliveroo.fr/fr/menu/paris/paris-20eme-pere-lachaise/sohna-punjab?day=today&rpos=76&time=ASAP",
+        "id": "3351",
+        "description": "Envie de vous évader, surprendre vos sens ou découvrir une nouvelle cuisine ? Sohna Punjab vous propose des plats issus de différentes régions de l'Inde. Bon voyage !\r\n\r\nRead more",
+        "phone": "+33153278159",
+        "logo": "",
+        "name": "Sohna Punjab",
+        "address": "76 rue des pyrénées, Paris, 75020",
+        "work_time": "Ouvert jusqu'à 23:00"
+    },
+    {
+        "specialties": [
+            "Asiatique",
+            "Tibétain"
+        ],
+        "link": "https://deliveroo.fr/fr/menu/paris/Aligre/karma?day=today&rpos=77&time=ASAP",
+        "id": "29719",
+        "description": "Une cuisine typique et authentique tout droit venue du Tibet !Read more",
+        "phone": "+33143146021",
+        "logo": "",
+        "name": "Karma",
+        "address": "24 rue traversière, Paris, 75012",
+        "work_time": "Ouvert jusqu'à 22:30"
+    },
+    {
+        "specialties": [
+            "Français",
+            "Burgers"
+        ],
+        "link": "https://deliveroo.fr/fr/menu/paris/11eme-bastille/la-rotonde?day=today&rpos=78&time=ASAP",
+        "id": "49615",
+        "description": "Bienvenue à La Rotonde !Read more",
+        "phone": "+33147006893",
+        "logo": "",
+        "name": "La Rotonde",
+        "address": "17 rue de la roquette, Paris, 75011",
+        "work_time": "Ouvert jusqu'à 23:30"
+    },
+    {
+        "specialties": [
+            "Carribéen",
+            "International"
+        ],
+        "link": "https://deliveroo.fr/fr/menu/paris/11eme-republique/cuba-compagnie-cafe?day=today&rpos=79&time=ASAP",
+        "id": "12098",
+        "description": "Afin de vous dépayser totalement, vous retrouverez dans votre brunch l’atmosphère d'Amérique Latine tous les dimanchesRead more",
+        "phone": "+33148060711",
+        "logo": "",
+        "name": "Cuba Compagnie Café",
+        "address": "48 boulevard beaumarchais, Paris, 75011",
+        "work_time": "Ouvert jusqu'à 23:30"
+    },
+    {
+        "specialties": [
+            "Italien",
+            "Pâtes Fraîches",
+            "Salade"
+        ],
+        "link": "https://deliveroo.fr/fr/menu/paris/4eme-hotel-de-ville/fuxia-marais?day=today&rpos=80&time=ASAP",
+        "id": "9851",
+        "description": "On vous amène l’Italie chez vous ! Scaloppine milanese, linguine bolognese, polenta crémeuse,… la vraie cuisine à l’italienne quoi !Read more",
+        "phone": "+33142722274",
+        "logo": "",
+        "name": "Fuxia",
+        "address": "50 rue François Miron, Paris, 75004PARIS",
+        "work_time": "Ouvert jusqu'à 23:00"
+    },
+    {
+        "specialties": [
+            "Fruits De Mer",
+            "Sud Américain",
+            "International",
+            "Péruvien"
+        ],
+        "link": "https://deliveroo.fr/fr/menu/paris/11eme-voltaire/candela-ii?day=today&rpos=81&time=ASAP",
+        "id": "24999",
+        "description": "La cuisine bolivienne et péruvienne en plein coeur de Paris. Tout est fait maison !Read more",
+        "phone": "+33140098072",
+        "logo": "",
+        "name": "Candela 2",
+        "address": "32 Rue de la Folie-Regnault, Paris, 75011",
+        "work_time": "Ouvert jusqu'à 23:00"
+    },
+    {
+        "specialties": [
+            "Halal",
+            "Français"
+        ],
+        "link": "https://deliveroo.fr/fr/menu/paris/paris-20eme-menilmontant/la-grillade-gourmande?day=today&rpos=82&time=ASAP",
+        "id": "39464",
+        "description": "Grillades de qualitéRead more",
+        "phone": "+33616804843",
+        "logo": "",
+        "name": "La Grillade Gourmande",
+        "address": "3 RUE DES CENDRIERS, Paris, 75020",
+        "work_time": "Ouvert jusqu'à 23:30"
+    },
+    {
+        "specialties": [
+            "Vietnamien",
+            "Bobun"
+        ],
+        "link": "https://deliveroo.fr/fr/menu/paris/paris-20eme-menilmontant/co-my-cantine?day=today&rpos=83&time=ASAP",
+        "id": "15100",
+        "description": "En plein milieu du quartier de Menilmontant, Cô My Cantine propose des plats typiques de la cuisine traditionnelle, et notamment le fameux Bò Bún, le Lóc Lác ou encore le délicieux Pho. Read more",
+        "phone": "+33143669410",
+        "logo": "",
+        "name": "Co My Cantine",
+        "address": "18 Rue de Menilmontant, Paris, 75020",
+        "work_time": "Ouvert jusqu'à 23:00"
+    },
+    {
+        "specialties": [
+            "Thaï"
+        ],
+        "link": "https://deliveroo.fr/fr/menu/paris/Montgallet/chez-bai-fern?day=today&rpos=84&time=ASAP",
+        "id": "30775",
+        "description": "- 100% thaïlandais -Read more",
+        "phone": "+33954167364",
+        "logo": "",
+        "name": "Chez Bai Fern",
+        "address": "43 Rue de Wattignies, Paris, 75012",
+        "work_time": "Ouvert jusqu'à 22:30"
+    },
+    {
+        "specialties": [
+            "Pizza",
+            "Italien"
+        ],
+        "link": "https://deliveroo.fr/fr/menu/paris/Reuilly-Diderot/scotta-paris?day=today&rpos=85&time=ASAP",
+        "id": "28737",
+        "description": "Scotta est un authentique restaurant italien qui vous propose un repas typiquement italien au coeur du quartier d'Aligre.Read more",
+        "phone": "+33146280165",
+        "logo": "",
+        "name": "SCOTTA!",
+        "address": "11 bis rue de cotte, Paris, 75012",
+        "work_time": "Ouvert jusqu'à 22:30"
+    },
+    {
+        "specialties": [
+            "Turque",
+            "Méditerranéen",
+            "Oriental"
+        ],
+        "link": "https://deliveroo.fr/fr/menu/paris/Picpus/le-janissaire?day=today&rpos=86&time=ASAP",
+        "id": "41389",
+        "description": "Venez découvrir la délicieuse Gastronomie Turque chez Le Janissaire. Read more",
+        "phone": "+33143403737",
+        "logo": "",
+        "name": "Le Janissaire",
+        "address": "24 allée Vivaldi, Paris, 75012",
+        "work_time": "Ouvert jusqu'à 22:30"
+    },
+    {
+        "specialties": [
+            "Thaï",
+            "Fusion"
+        ],
+        "link": "https://deliveroo.fr/fr/menu/paris/11eme-republique/district-11?day=today&rpos=87&time=ASAP",
+        "id": "27777",
+        "description": "Le Thaï moderne du 11ème.Read more",
+        "phone": "+33143572029",
+        "logo": "",
+        "name": "District 11",
+        "address": "32 Rue de la Fontaine au Roi, Paris, 75011",
+        "work_time": "Ouvert jusqu'à 22:00"
+    },
+    {
+        "specialties": [
+            "Asiatique",
+            "Chinois"
+        ],
+        "link": "https://deliveroo.fr/fr/menu/paris/11eme-belleville/tin-tin?day=today&rpos=88&time=ASAP",
+        "id": "47047",
+        "description": "Cuisine chinoiseRead more",
+        "phone": "+33143555013",
+        "logo": "",
+        "name": "Tin Tin",
+        "address": "17 rue Louis Bonnet, Paris, 75011",
+        "work_time": "Ouvert jusqu'à 23:00"
+    },
+    {
+        "specialties": [
+            "Vietnamien",
+            "Asiatique"
+        ],
+        "link": "https://deliveroo.fr/fr/menu/paris/paris-12eme-bel-air/lan-rung?day=today&rpos=89&time=ASAP",
+        "id": "15837",
+        "description": "",
+        "phone": "+33967682332",
+        "logo": "",
+        "name": "Lan Rung",
+        "address": "90 avenue de docteur arnold netter, Paris, 75012",
+        "work_time": "Ouvert jusqu'à 22:30"
+    },
+    {
+        "specialties": [
+            "Africain",
+            "International"
+        ],
+        "link": "https://deliveroo.fr/fr/menu/paris/11eme-voltaire/waly-fay?day=today&rpos=90&time=ASAP",
+        "id": "2379",
+        "description": "La cuisinière Fatou Sylla vous fait découvrir une panoplie de cuisines africaines. Laissez vous tenter par le poulet à la noix de Pécan, ou les crevettes de Madagascar au gimgembre !Read more",
+        "phone": "+33140241779",
+        "logo": "",
+        "name": "Waly-Fay",
+        "address": "6 rue Godefroy Cavaignac, Paris, 75011",
+        "work_time": "Ouvert jusqu'à 23:00"
+    },
+    {
+        "specialties": [
+            "Chinois",
+            "Asiatique"
+        ],
+        "link": "https://deliveroo.fr/fr/menu/paris/11eme-nation/chez-wang?day=today&rpos=91&time=ASAP",
+        "id": "16238",
+        "description": "Chez Wang, venez découvrir la vraie gastronomie du Nord Est de la Chine !Read more",
+        "phone": "+33143700841",
+        "logo": "",
+        "name": "Chez Wang",
+        "address": "15 rue Léon Frot, Paris, 75011",
+        "work_time": "Ouvert jusqu'à 23:00"
+    },
+    {
+        "specialties": [
+            "Américain",
+            "Burgers"
+        ],
+        "link": "https://deliveroo.fr/fr/menu/paris/paris-10eme-gare-de-lest/blend-republique?day=today&rpos=92&time=ASAP",
+        "id": "11184",
+        "description": "Blend rassemble autour de hamburgers gourmets aux buns maison cuits deux fois par jour par ses boulangers, et d’une viande d’Yves-Marie le Bourdonnec, fraîchement hachée sur place.\r\nFrites, frites de patate douce et coleslaw 100% maison.Read more",
+        "phone": "+33142454726",
+        "logo": "",
+        "name": "Blend - Republique",
+        "address": "3 rue Yves Toudic, Paris, 75010",
+        "work_time": "Ouvert jusqu'à 22:45"
+    },
+    {
+        "specialties": [
+            "Indien"
+        ],
+        "link": "https://deliveroo.fr/fr/menu/paris/paris-20eme-porte-de-bagnolet/jaisalmer?day=today&rpos=93&time=ASAP",
+        "id": "43970",
+        "description": "Spécialités Gastronomiques IndiennesRead more",
+        "phone": "+33147976577",
+        "logo": "",
+        "name": "Jaisalmer",
+        "address": "11 avenue du Père Lachaise, Paris, 75020",
+        "work_time": "Ouvert jusqu'à 22:30"
+    },
+    {
+        "specialties": [
+            "Japonais",
+            "Sushi",
+            "Asiatique"
+        ],
+        "link": "https://deliveroo.fr/fr/menu/paris/11eme-bastille/sushi-shop-saint-antoine-1?day=today&rpos=94&time=ASAP",
+        "id": "17970",
+        "description": "Le leader de la restauration japonaise livré chez vous avec Deliveroo.Read more",
+        "phone": "+33826826628",
+        "logo": "",
+        "name": "Sushi Shop",
+        "address": "111 rue du Faubourg Saint-Antoine, Paris, 75011",
+        "work_time": "Ouvert jusqu'à 22:15"
+    },
+    {
+        "specialties": [
+            "Français"
+        ],
+        "link": "https://deliveroo.fr/fr/menu/paris/11eme-bastille/le-barbier-de-bastille?day=today&rpos=95&time=ASAP",
+        "id": "40932",
+        "description": "Le Barbier de Bastille vous propose une cuisine de bistrot maison élaborée avec des produits frais !\r\nRead more",
+        "phone": "+33143558805",
+        "logo": "",
+        "name": "Le Barbier De Bastille",
+        "address": "40 boulevard Beaumarchais, Paris, 75011",
+        "work_time": "Ouvert jusqu'à 23:00"
+    },
+    {
+        "specialties": [
+            "Japonais",
+            "Sushi"
+        ],
+        "link": "https://deliveroo.fr/fr/menu/paris/Picpus/the-maki?day=today&rpos=96&time=ASAP",
+        "id": "53291",
+        "description": "",
+        "phone": "+33614536337",
+        "logo": "",
+        "name": "Thé Maki",
+        "address": "87 rue de Picpus, Paris, 75012",
+        "work_time": "Ouvert jusqu'à 22:30"
+    },
+    {
+        "specialties": [
+            "Français"
+        ],
+        "link": "https://deliveroo.fr/fr/menu/paris/paris-12eme-bel-air/chez-victor?day=today&rpos=97&time=ASAP",
+        "id": "39740",
+        "description": "Venez manger chez le boucher! Véritable concept boucherie / restaurant, Chez Victor vous propose des grillades, burgers & salades, servis généreusement avec des produits frais et faits maison, dans le plus grand respect de la tradition bouchère.Read more",
+        "phone": "+33147705058",
+        "logo": "",
+        "name": "Chez Victor",
+        "address": "53 rue du docteur Arnold Netter, Paris, 75012",
+        "work_time": "Ouvert jusqu'à 22:30"
+    },
+    {
+        "specialties": [
+            "Français",
+            "Salade"
+        ],
+        "link": "https://deliveroo.fr/fr/menu/paris/11eme-bastille/paradis-du-fruit-bastille?day=today&rpos=98&time=ASAP",
+        "id": "40437",
+        "description": "Entre vous et le Paradis (du Fruit) il n'y a qu'un pas !Read more",
+        "phone": "+33143078225",
+        "logo": "",
+        "name": "Le Paradis du Fruit",
+        "address": "12 Place de la Bastille, Paris, 75011",
+        "work_time": "Ouvert jusqu'à 23:30"
+    },
+    {
+        "specialties": [
+            "Burgers",
+            "Cacher",
+            "Américain"
+        ],
+        "link": "https://deliveroo.fr/fr/menu/paris/11eme-nation/hbk-burger-voltaire?day=today&rpos=99&time=ASAP",
+        "id": "52720",
+        "description": "House Burger KosherRead more",
+        "phone": "+33143701111",
+        "logo": "",
+        "name": "HBK Burger - Voltaire",
+        "address": "246 Boulevard Voltaire, Paris, 75011",
+        "work_time": "Ouvert jusqu'à 23:00"
+    },
+    {
+        "specialties": [
+            "Libanais",
+            "Méditerranéen",
+            "Oriental"
+        ],
+        "link": "https://deliveroo.fr/fr/menu/paris/11eme-bastille/le-misk?day=today&rpos=100&time=ASAP",
+        "id": "32420",
+        "description": "Le Misk demeure l'aromate incontournable d'une cuisine Libanaise fine, typique et raffinéeRead more",
+        "phone": "+33147001815",
+        "logo": "",
+        "name": "Le Misk",
+        "address": "19 rue de charonne, Paris, 75011",
+        "work_time": "Ouvert jusqu'à 23:30"
+    },
+    {
+        "specialties": [
+            "Italien",
+            "Pizza"
+        ],
+        "link": "https://deliveroo.fr/fr/menu/paris/3eme-temple/grazie?day=today&rpos=101&time=ASAP",
+        "id": "26277",
+        "description": "Nos pizze sont élaborées à partir d’un empattement à fermentation lente, de minimum 5 jours, qui apporte tenue, croquant et moelleux. Nous utilisons exclusivement des farines et levures italiennes et des produits frais de saison.Read more",
+        "phone": "+33142781196",
+        "logo": "",
+        "name": "Grazie",
+        "address": "91 boulevard Beaumarchais, Paris, 75003",
+        "work_time": "Ouvert jusqu'à 22:45"
+    },
+    {
+        "specialties": [
+            "Sushi",
+            "Japonais"
+        ],
+        "link": "https://deliveroo.fr/fr/menu/paris/Montgallet/pause-sushi?day=today&rpos=102&time=ASAP",
+        "id": "39966",
+        "description": "- ingrédients frais et de qualité -Read more",
+        "phone": "+33143407231",
+        "logo": "",
+        "name": "Pause Sushi",
+        "address": "13 rue de Wattignies, Paris, 75012",
+        "work_time": "Ouvert jusqu'à 23:45"
+    },
+    {
+        "specialties": [
+            "Chinois"
+        ],
+        "link": "https://deliveroo.fr/fr/menu/paris/Reuilly-Diderot/gold-dragon?day=today&rpos=103&time=ASAP",
+        "id": "28221",
+        "description": "- Cuisine traditionnelle Hongkongaise -Read more",
+        "phone": "+33143442513",
+        "logo": "",
+        "name": "Gold Dragon",
+        "address": "54 Avenue Daumesnil, Paris, 75012",
+        "work_time": "Ouvert jusqu'à 22:30"
+    },
+    {
+        "specialties": [
+            "Américain"
+        ],
+        "link": "https://deliveroo.fr/fr/menu/paris/4eme-hotel-de-ville/bedford-diner-marais?day=today&rpos=104&time=ASAP",
+        "id": "3226",
+        "description": "Brooklyn s'invite à Paris ! Générosité et gourmandise au rendez-vous. Les homemade burgers, bagels, salades, cheesecake... Le tout préparé avec de bons produits frais, une viande 100% France, buns et desserts par Rachel's.Read more",
+        "phone": "+33981678359",
+        "logo": "",
+        "name": "Bedford Diner",
+        "address": "3 rue du Bourg Tibourg, Paris, 75004",
+        "work_time": "Ouvert jusqu'à 22:30"
+    },
+    {
+        "specialties": [
+            "Hispanique",
+            "Tapas",
+            "Espagnol"
+        ],
+        "link": "https://deliveroo.fr/fr/menu/paris/Aligre/casa-de-espana?day=today&rpos=105&time=ASAP",
+        "id": "3133",
+        "description": "Vous avez des envies de Tapas, de Paella, de Sangria, de Zarzuela, d'Arroz Negro… alors n’attendez plus, venez découvrir la cuisine de Casa de Espana.Read more",
+        "phone": "+33143415811",
+        "logo": "",
+        "name": "Casa De Espana",
+        "address": "72 avenue Ledru-Rollin, Paris, 75012",
+        "work_time": "Ouvert jusqu'à 23:00"
+    },
+    {
+        "specialties": [
+            "Turque",
+            "Méditerranéen",
+            "Oriental"
+        ],
+        "link": "https://deliveroo.fr/fr/menu/paris/Aligre/le-cheval-de-troie?day=today&rpos=106&time=ASAP",
+        "id": "3128",
+        "description": "Le Cheval de Troie vous propose une cuisine traditionnelle turque: mezzés, grillades au feu de bois accompagnés par ses vins typiques...Read more",
+        "phone": "+33143442444",
+        "logo": "",
+        "name": "Le Cheval de Troie",
+        "address": "71 Rue de Charenton, Paris, 75012",
+        "work_time": "Ouvert jusqu'à 23:00"
+    },
+    {
+        "specialties": [
+            "Coréen",
+            "Asiatique"
+        ],
+        "link": "https://deliveroo.fr/fr/menu/paris/Aligre/ommabab?day=today&rpos=107&time=2215",
+        "id": "25922",
+        "description": "엄마밥Read more",
+        "phone": "+33143078327",
+        "logo": "",
+        "name": "Ommabab",
+        "address": "241 Rue de Bercy, Paris, 75012",
+        "work_time": "Ouvre à 12:00"
+    },
+    {
+        "specialties": [
+            "Belge",
+            "Fruits De Mer"
+        ],
+        "link": "https://deliveroo.fr/fr/menu/paris/4eme-hotel-de-ville/leon-de-bruxelles-bastille?day=today&rpos=108&time=2215",
+        "id": "52504",
+        "description": "Léon de Bruxelles faisant la part belle aux moules, frites et gaufres, le tout frais et « fait maison ».Read more",
+        "phone": "+33142717555",
+        "logo": "",
+        "name": "Léon de Bruxelles ",
+        "address": "3 boulevard Beaumarchais, Paris, 75004",
+        "work_time": "Ouvre à 11:30"
+    },
+    {
+        "specialties": [
+            "Japonais",
+            "Sushi",
+            "Asiatique"
+        ],
+        "link": "https://deliveroo.fr/fr/menu/paris/4eme-hotel-de-ville/sushi-shop-saint-antoine-2?day=today&rpos=109&time=2215",
+        "id": "17973",
+        "description": "Le leader de la restauration japonaise livré chez vous avec Deliveroo.Read more",
+        "phone": "+33826826628",
+        "logo": "",
+        "name": "Sushi Shop",
+        "address": "51 rue Saint Antoine, Paris, 75004",
+        "work_time": "Ouvre à 11:45"
+    },
+    {
+        "specialties": [
+            "Italien"
+        ],
+        "link": "https://deliveroo.fr/fr/menu/paris/4eme-hotel-de-ville/cerise-sur-la-pizza-saint-paul?day=today&rpos=110&time=2215",
+        "id": "7858",
+        "description": "La pizzeria marseillaise par excellence ! L’équipe chaleureuse revendique leurs racines phocéennes. Des produits authentiques directement importés d’Italie et magnifiés par des pizzas moelleuses à la pâte aérienne et croquante.Read more",
+        "phone": "+33184166484",
+        "logo": "",
+        "name": "Cerise sur la pizza - Saint-Paul",
+        "address": "32 rue Saint-Paul, Paris, 75004",
+        "work_time": "Ouvre à 12:00"
+    },
+    {
+        "specialties": [
+            "Hispanique",
+            "Argentin",
+            "Sud Américain"
+        ],
+        "link": "https://deliveroo.fr/fr/menu/paris/11eme-nation/unico-paul-bert?day=today&rpos=111&time=2215",
+        "id": "17487",
+        "description": "El Restaurante Argentino. De la viande évidemment ! cuite au charbon de bois (argentin) par un parillero (argentin) et venue … évidemment d’ArgentineRead more",
+        "phone": "+33143676808",
+        "logo": "",
+        "name": "Unico",
+        "address": "15 Rue Paul Bert, Paris, 75011",
+        "work_time": "Ouvre à 12:00"
+    },
+    {
+        "specialties": [
+            "Italien",
+            "Pâtes Fraîches"
+        ],
+        "link": "https://deliveroo.fr/fr/menu/paris/11eme-republique/borgo-delle-tovaglie?day=today&rpos=112&time=2215",
+        "id": "25096",
+        "description": "La cuisine italienne fine et délicateRead more",
+        "phone": "+33982336481",
+        "logo": "",
+        "name": "Borgo Delle Tovaglie",
+        "address": "4 Rue du Grand Prieuré, Paris, 75011",
+        "work_time": "Ouvre à 12:30"
+    },
+    {
+        "specialties": [
+            "Asiatique",
+            "Tibétain"
+        ],
+        "link": "https://deliveroo.fr/fr/menu/paris/Passerelle/bar-a-momos?day=today&rpos=113&time=2230",
+        "id": "27737",
+        "description": "La cuisine traditionnelle tibétaine, tout est frais et fait maison !Read more",
+        "phone": "+33143728982",
+        "logo": "",
+        "name": "Bar à Momos",
+        "address": "218 Rue du Faubourg Saint-Antoine, Paris, 75012",
+        "work_time": "Ouvre à 12:00"
+    }
+]
