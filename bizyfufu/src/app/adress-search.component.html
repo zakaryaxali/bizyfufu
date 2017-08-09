@@ -1,3 +1,12 @@
-<!-- <label for="locationTextField">Location</label> -->
-<input #locationTextField id="locationTextField" (keyup.enter)="recommanderPlats(locationTextField.value)" type="text" size="50">
-<button (click)="recommanderPlats(locationTextField.value)">Search</button>
+<div class="form-group">
+  <input #search
+         placeholder="search for location"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="off"
+         type="text"
+         class="form-control"
+         [formControl]="searchControl"
+         (keyup.enter)="recommanderPlats(search.value)">
+  <button (click)="recommanderPlats(search.value)">Search</button>
+</div>

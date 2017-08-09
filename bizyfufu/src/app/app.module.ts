@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { AgmCoreModule } from '@agm/core';
 
@@ -36,11 +36,13 @@ import { InMemoryDataService }  from './in-memory-data.service';
   imports: [
     BrowserModule,
     FormsModule,
+    ReactiveFormsModule,
     AppRoutingModule,
     HttpModule, // htppmodule toujours avant inmemory..
     InMemoryWebApiModule.forRoot(InMemoryDataService),
     AgmCoreModule.forRoot({
-      apiKey: 'AIzaSyCHzqK921M6cl3LWhbv8hbRpjcPzuSwYpA'
+      apiKey: 'AIzaSyCHzqK921M6cl3LWhbv8hbRpjcPzuSwYpA',
+      libraries: ["places"]
     })
   ],
   providers: [
