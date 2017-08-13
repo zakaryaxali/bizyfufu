@@ -10,7 +10,8 @@ import { RestaurantService } from './restaurant.service';
 @Component({
   selector: 'restaurant-detail',
   templateUrl: './restaurant-detail.component.html',
-  styleUrls: ['./restaurant-detail.component.css']
+  styleUrls: ['./restaurant-detail.component.css'],
+  providers: [RestaurantService]
 })
 export class RestaurantDetailComponent implements OnInit {
   restaurant: Restaurant;
@@ -22,9 +23,10 @@ export class RestaurantDetailComponent implements OnInit {
   ) {}
 
   ngOnInit(): void {
-    this.route.paramMap
-      .switchMap((params: ParamMap) => this.restaurantService.getRestaurant(+params.get('id')))
-      .subscribe(restaurant => this.restaurant = restaurant);
+    var a = this;
+    a.route.paramMap
+      .switchMap((params: ParamMap) => a.restaurantService.getRestaurant(+params.get('id')))
+      .subscribe(restaurant => a.restaurant = restaurant);
   }
 
   // goBack(): void {

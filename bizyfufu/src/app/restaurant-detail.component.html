@@ -1,13 +1,53 @@
-<div>
-  <h2>{{restaurant.name}} details!</h2>
-  <div>
-      <br/>{{ restaurant.id }}
-      <br/>{{ restaurant.logo }}
-      <br/>{{ restaurant.name }}
-      <br/>{{ restaurant.address }}
-      <br/>{{ restaurant.specialties }}
-      <br/>{{ restaurant.work_time }}
-      <br/>{{ restaurant.minimum_order }}
-      <br/>{{ restaurant.link }}
+<div class="container">
+  <div class="restotitle">{{restaurant.name}}</div>
+  <div class="restoaddress">{{ restaurant.address }}</div>
+  <div class="restobox">
+    <div class="restopic">
+        <img src="{{ restaurant.logo }}" alt="Logo Restaurant">
+    </div>
+    <div class="restodescription">
+      <!-- Les restaurants n'ont pas forcément de description (deliveroo oui / alloresto non) -->
+        {{ restaurant.specialties }}
+    </div>
+    <div class="restohoraires">
+      {{ restaurant.work_time }}
+    </div>
+    <div class="restourl">
+        <a href="{{ restaurant.link }}">Site du restaurant</a>
+    </div>
+
+    <div class="menubox">
+      <!-- A garder? -->
+      <h1> Aperçu du menu </h1>
+      <table>
+        <tr>
+          <th>Meal</th>
+          <th>Price</th>
+        </tr>
+        <tr>
+          <td>Bucket 15</td>
+          <td>24.00 €</td>
+        </tr>
+        <tr>
+          <td>Chicken Nuggets x6</td>
+          <td>3.00 €</td>
+        </tr>
+        <tr>
+          <td>Chicken Nuggets x6</td>
+          <td>3.00 €</td>
+        </tr>
+        <tr>
+          <td>Chicken Nuggets x6</td>
+          <td>3.00 €</td>
+        </tr>
+      </table>
+    </div>
   </div>
 </div>
+
+<!-- MAP -->
+
+<agm-map [latitude]="userLat" [longitude]="userLng" [zoom]="zoom">
+  <agm-marker [latitude]="userLat" [longitude]="userLng"></agm-marker>
+  <!-- <agm-marker [latitude]="restaurantLat" [longitude]="restaurantLng"></agm-marker> -->
+</agm-map>
