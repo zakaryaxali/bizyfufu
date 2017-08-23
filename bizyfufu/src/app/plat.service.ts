@@ -34,6 +34,23 @@ export class PlatService {
       .catch(this.handleError);
   }
 
+  getPlatsByIdRestaurant(id: number): Promise<Plat[]> {
+    return this.getPlats().then(plats =>{
+      const filterByIdRestaurant = (requete) => {
+        return plats.filter((el) =>
+          el.id_restaurant === requete
+        );
+      };
+      return filterByIdRestaurant(id);
+    })
+  }
+
+  filterByIdRestaurant(plat: Plat){
+    return plat.id_restaurant
+  }
+
+
+
   private headers = new Headers({'Content-Type': 'application/json'});
 
   update(plat: Plat): Promise<Plat> {

@@ -24,11 +24,11 @@
           <th>Meal</th>
           <th>Price</th>
         </tr>
-        <tr>
-          <td>Bucket 15</td>
-          <td>24.00 €</td>
+        <tr *ngFor="let plat of plats">
+          <td>{{ plat.name }}</td>
+          <td>{{ plat.prix }}</td>
         </tr>
-        <tr>
+        <!-- <tr>
           <td>Chicken Nuggets x6</td>
           <td>3.00 €</td>
         </tr>
@@ -39,7 +39,7 @@
         <tr>
           <td>Chicken Nuggets x6</td>
           <td>3.00 €</td>
-        </tr>
+        </tr> -->
       </table>
     </div>
   </div>
