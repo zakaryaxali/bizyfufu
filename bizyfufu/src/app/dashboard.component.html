@@ -9,11 +9,34 @@
   </div>
 
 </div>
-<h3>Top Plats</h3>
+<!-- <h3>Top Plats</h3>
 <div class="grid grid-pad">
   <div *ngFor="let plat of plats" [routerLink]="['/platDetail', plat.id]" class="col-1-4">
     <div class="module plat">
       <h4>{{plat.name}}</h4>
     </div>
   </div>
+</div> -->
+<!-- TODO : Ajouter les petits messages de façon automatisées -->
+<div id="wrapper">
+    <div id="first">Connecting 500 restaurants in Paris to 62554 foodies</div>
+    <div id="second">Discover meals @home or anywhere else</div>
+    <div id="third">Find a meal that suits your apetite</div>
+</div>
+<div class="centerthings">
+  <div *ngFor="let plat of plats"
+    class="box"
+    [routerLink]="['/platDetail', plat.id]">
+    <div class="mealpic">
+      <img [src]="plat.logo" [alt]="plat.name">
+    </div>
+    <div class="mealdescription">
+      <h2>{{plat.name}}</h2>
+      <p>{{plat.description}}</p>
+      <div class="mealprice">
+        à partir de {{plat.prix}}
+      </div>
+    </div>
+  </div>
+
 </div>
