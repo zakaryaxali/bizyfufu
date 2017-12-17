@@ -47,8 +47,8 @@
   </div>
 </div>
 
-<agm-map [latitude]="lat" [longitude]="lng" [zoom]="zoom">
-  <agm-marker [latitude]="lat" [longitude]="lng"></agm-marker>
+<agm-map [latitude]="user.latitude" [longitude]="user.latitude" [zoom]="zoom">
+  <agm-marker [latitude]="user.latitude" [longitude]="user.longitude"></agm-marker>
   <!-- <agm-marker [latitude]="selectedPlatRestaurantLat" [longitude]="selectedPlatRestaurantLng"></agm-marker> -->
   <agm-marker [latitude]="lat1" [longitude]="lng1"></agm-marker>
 </agm-map>

@@ -12,6 +12,7 @@ import { RestaurantsComponent } from './restaurants.component';
 import { RestaurantDetailComponent } from './restaurant-detail.component';
 import { PlatSearchComponent } from './plat-search.component';
 import { PlatService } from './plat.service';
+import { UserService } from './user.service';
 import { AdressSearchComponent } from './adress-search.component';
 import { MapComponent } from './map.component';
 import { FooterComponent } from './footer.component';
@@ -48,7 +49,8 @@ import { InMemoryDataService }  from './in-memory-data.service';
     })
   ],
   providers: [
-    PlatService
+    PlatService,
+    UserService,
   ],
   bootstrap: [
     AppComponent

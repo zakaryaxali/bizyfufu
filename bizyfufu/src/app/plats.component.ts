@@ -3,6 +3,8 @@ import { Router } from '@angular/router';
 
 import { Plat } from './plat';
 import { PlatService } from './plat.service';
+import { User } from './user';
+import { UserService } from './user.service';
 import { Restaurant } from './restaurant';
 import { RestaurantService } from './restaurant.service';
 import { MapService } from './map.service';
@@ -11,7 +13,7 @@ import { MapService } from './map.service';
   selector: 'my-plats',
   templateUrl: './plats.component.html',
   styleUrls: ['./plats.component.css'],
-  providers: [PlatService, RestaurantService, MapService]
+  providers: [RestaurantService, MapService]
 })
 export class PlatsComponent implements OnInit {
   plats: Plat[];
@@ -19,10 +21,11 @@ export class PlatsComponent implements OnInit {
   selectedPlat: Plat;
   selectedPlatRestaurant: Restaurant;
   voirRestaurant: boolean;
-  //1 avenue de daumesnil
+  user: User;
+  //1 avenue de daumesnil / adresse user
   lat: number = 48.8492876;
   lng: number = 2.3712717;
-  //12 rue du faubourg saint antoine
+  //12 rue du faubourg saint antoine / adresse restaurant
   lat1: number = 0;//48.8527412;
   lng1: number = 0;//2.370816999999988;
   zoom: number = 14;
@@ -31,6 +34,7 @@ export class PlatsComponent implements OnInit {
 
   constructor(
     private platService: PlatService,
+    private userService: UserService,
     private restaurantService: RestaurantService,
     private mapService: MapService,
     private router: Router,
@@ -44,8 +48,16 @@ export class PlatsComponent implements OnInit {
     });
   }
 
+  getUser(): void {
+    var a = this;
+    a.user.latitude = a.userService.getLatitude();
+    a.user.longitude = a.userService.getLongitude();
+  }
+
   ngOnInit(): void {
+    this.user = new User();
     this.getPlats();
+    this.getUser();
     this.voirRestaurant = false;
   }
 

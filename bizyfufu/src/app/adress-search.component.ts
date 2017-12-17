@@ -4,6 +4,8 @@ import { Router }            from '@angular/router';
 import { MapsAPILoader } from '@agm/core';
 import { Observable }     from 'rxjs/Observable';
 declare var google: any;
+import { User } from './user';
+import { UserService } from './user.service';
 
 
 @Component({
@@ -13,18 +15,29 @@ declare var google: any;
 })
 export class AdressSearchComponent implements OnInit {
 
-    public searchControl: FormControl;
+  user: User;
+  public searchControl: FormControl;
 
-    @ViewChild("search")
-    public searchElementRef: ElementRef;
+  @ViewChild("search")
+  public searchElementRef: ElementRef;
 
   constructor(
     private router: Router,
+    private userService: UserService,
     private __loader: MapsAPILoader,
     private ngZone: NgZone
   ) {}
 
+  getUser(): void {
+    var a = this;
+    a.user.latitude = a.userService.getLatitude();
+    a.user.longitude = a.userService.getLongitude();
+  }
+
   ngOnInit(): void {
+    this.user = new User();
+    this.getUser();
+
     // var input = document.getElementById('searchInput');
     // var autocomplete = new google.maps.places.Autocomplete(input);
 
@@ -47,8 +60,8 @@ export class AdressSearchComponent implements OnInit {
       //     }
       //
       //     //set latitude, longitude and zoom
-      //     // this.latitude = place.geometry.location.lat();
-      //     // this.longitude = place.geometry.location.lng();
+      //     // this.user.latitude = place.geometry.location.lat();
+      //     // this.user.longitude = place.geometry.location.lng();
       //     // this.zoom = 12;
       //   });
       // });
@@ -70,6 +83,10 @@ export class AdressSearchComponent implements OnInit {
   }
 
   recommanderPlats(adress: string): void {
+    this.user.latitude = 48.8492876;
+    this.user.longitude = 2.3712717;
+    this.userService.setLatitude(this.user.latitude);
+    this.userService.setLongitude(this.user.longitude);
     let link = ['/plats'];
     this.router.navigate(link);
   }

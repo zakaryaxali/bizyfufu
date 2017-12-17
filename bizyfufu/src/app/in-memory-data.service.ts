@@ -6,6 +6,11 @@ export class InMemoryDataService implements InMemoryDbService {
   createDb() {
     const restaurants = <any>mockRestaurants;
     const plats = <any>mockPlats;
-    return {plats, restaurants};
+    const user = {
+        id: 0,
+        latitude: 0,
+        longitude: 0
+    }
+    return {plats, restaurants, user};
   }
 }
