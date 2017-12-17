@@ -1,0 +1,21 @@
+#app-recommandation {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  background-color: white;
+}
+.title-recommandation {
+  font-family: 'Lato';
+}
+.recommandation > h2 {
+    font-family: 'Grand Hotel';
+}
+.swipe-info {
+  font-family: 'Chewy';
+  color: #C853D3;
+}
+.meal-information {
+  /*width: 100%;
+  height: 250px;*/
+  /*background-image: url('../../assets/img/meal.png');*/
+}

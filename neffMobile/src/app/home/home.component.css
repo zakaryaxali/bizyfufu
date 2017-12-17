@@ -1,0 +1,24 @@
+#app-home {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+.title-home {
+  color: #47525E;
+  font-size: 3em
+}
+.recommandation {
+  border-radius: 50%;
+	width: 200px;
+	height: 200px;
+  background-color: #F4DAD6;
+  color: #47525E;
+  opacity: 0.5;
+  font-size: 1.5em;
+  bottom: 0px;
+  position: absolute;
+  margin-left: 5vw;
+  display: flex;
+  justify-content: center; /* align horizontal */
+  align-items: center;
+}

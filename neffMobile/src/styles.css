@@ -1,1 +1,8 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Chewy|Grand+Hotel|Lato');
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    background-image: url("./assets/img/home-background.png");
+    background-size: 100%;
+    overflow: hidden;
+}
