@@ -1,0 +1,100 @@
+<h2 class="example-h2">Personnalize your profile</h2>
+<div class="main-carousel" data-flickity='{ "cellAlign": "center", "contain": true, "prevNextButtons": false, "pageDots": true}'>
+  <div class="carousel-cell">
+    <mat-card class="result">
+      <mat-card-content>
+        <h2 class="example-h2">Taste and Texture</h2>
+
+        <mat-slider
+            class="example-margin"
+            [max]="max"
+            [min]="min"
+            [(ngModel)]="value">
+        </mat-slider>
+        <div class="under-slider">
+          <span>Sweety</span><span>Salty</span>
+        </div>
+        <mat-slider
+            class="example-margin"
+            [max]="max"
+            [min]="min"
+            [(ngModel)]="value">
+        </mat-slider>
+        <div class="under-slider">
+          <span>Acid</span><span>Sweet</span>
+        </div>
+
+        <mat-slider
+            class="example-margin"
+            [max]="max"
+            [min]="min"
+            [(ngModel)]="value">
+        </mat-slider>
+        <div class="under-slider">
+          <span>Hot</span><span>Cold</span>
+        </div>
+
+        <mat-slider
+            class="example-margin"
+            [max]="max"
+            [min]="min"
+            [tick-interval]="tickInterval"
+            [step]="step"
+            [(ngModel)]="value">
+        </mat-slider>
+        <div class="under-slider">
+          <span>Crunchy</span><span>Chewy</span>
+        </div>
+      </mat-card-content>
+    </mat-card>
+  </div>
+  <div class="carousel-cell">
+    <mat-card class="result">
+      <mat-card-content>
+        <h2 class="example-h2">Style and Timing</h2>
+
+        <mat-slider
+            class="example-margin"
+            [max]="max"
+            [min]="min"
+            [(ngModel)]="value">
+        </mat-slider>
+        <div class="under-slider">
+          <span>Relax</span><span>Hurry</span>
+        </div>
+        <mat-slider
+            class="example-margin"
+            [max]="max"
+            [min]="min"
+            [(ngModel)]="value">
+        </mat-slider>
+        <div class="under-slider">
+          <span>Fit</span><span>Fat</span>
+        </div>
+
+        <mat-slider
+            class="example-margin"
+            [max]="max"
+            [min]="min"
+            [(ngModel)]="value">
+        </mat-slider>
+        <div class="under-slider">
+          <span>Sports</span><span>House</span>
+        </div>
+
+        <mat-slider
+            class="example-margin"
+            [max]="max"
+            [min]="min"
+            [tick-interval]="tickInterval"
+            [step]="step"
+            [(ngModel)]="value">
+        </mat-slider>
+        <div class="under-slider">
+          <span>Vegan</span><span>Carnivorous</span>
+        </div>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</div>
+<button mat-fab id="profile-initialize" (click)="openSnackBar('Profile Reinitialized', 'Undo')">Initialize</button>
