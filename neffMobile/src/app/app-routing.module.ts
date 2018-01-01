@@ -20,7 +20,7 @@ const routes: Routes = [
   { path: 'restaurantDetail/:id', component: RestaurantDetailComponent },
   { path: 'contact',     component: ContactComponent },
   { path: 'profile',     component: ProfileComponent },
-  { path: 'summary',     component: ProfileComponent },
+  { path: 'summary',     component: SummaryComponent },
   { path: 'person-profile',     component: PersonProfileComponent },
   { path: 'survey', component: SurveyComponent },
   { path: 'contact',     component: ContactComponent }

@@ -1,0 +1,42 @@
+<h3>You are about to order from</h3>
+<h2>Deliveroo</h2>
+<div id="order-summary">
+  <h3>Order summary :</h3>
+  <div class="example-container mat-elevation-z8">
+  <mat-table #table [dataSource]="dataSource">
+
+    <!--- Note that these columns can be defined in any order.
+          The actual rendered columns are set as a property on the row definition" -->
+
+    <!-- Number Orders Column -->
+    <ng-container matColumnDef="quantity">
+      <mat-header-cell *matHeaderCellDef> Quantity </mat-header-cell>
+      <mat-cell *matCellDef="let element"> {{element.quantity}}x </mat-cell>
+    </ng-container>
+
+    <!-- MealName Column -->
+    <ng-container matColumnDef="name">
+      <mat-header-cell *matHeaderCellDef> Name </mat-header-cell>
+      <mat-cell *matCellDef="let element"> {{element.name}} </mat-cell>
+    </ng-container>
+
+    <!-- Price Column -->
+    <ng-container matColumnDef="price">
+      <mat-header-cell *matHeaderCellDef> Price </mat-header-cell>
+      <mat-cell *matCellDef="let element"> {{element.price}}&euro; </mat-cell>
+    </ng-container>
+
+    <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+    <mat-row *matRowDef="let row; columns: displayedColumns;"></mat-row>
+  </mat-table>
+</div>
+
+
+  <h3>Delivery</h3>
+  <ul>
+    <li>Time : 18:55</li>
+    <li>Address : 12 rue Chevreul 94100</li>
+  </ul>
+  <button mat-button>Modify</button>
+</div>
+<button mat-button>Order</button>
