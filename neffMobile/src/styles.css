@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Chewy|Grand+Hotel|Lato');
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
 
 body {
     font-family: 'Josefin Sans', sans-serif;
-    background-image: url("./assets/img/home-background.png");
-    background-size: 100%;
     overflow: hidden;
+    margin: 0;
 }

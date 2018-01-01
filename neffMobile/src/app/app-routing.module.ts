@@ -5,9 +5,12 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { RecommandationComponent } from './recommandation/recommandation.component';
 import { ContactComponent } from './contact/contact.component';
+import { ProfileComponent } from './profile/profile.component';
 import { SurveyComponent } from './survey/survey.component';
 import { MealDetailComponent } from './meal-detail/meal-detail.component';
 import { RestaurantDetailComponent } from './restaurant-detail/restaurant-detail.component';
+import { PersonProfileComponent } from './person-profile/person-profile.component';
+import { SummaryComponent } from './summary/summary.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
@@ -16,6 +19,9 @@ const routes: Routes = [
   { path: 'recommandation',     component: RecommandationComponent },
   { path: 'restaurantDetail/:id', component: RestaurantDetailComponent },
   { path: 'contact',     component: ContactComponent },
+  { path: 'profile',     component: ProfileComponent },
+  { path: 'summary',     component: ProfileComponent },
+  { path: 'person-profile',     component: PersonProfileComponent },
   { path: 'survey', component: SurveyComponent },
   { path: 'contact',     component: ContactComponent }
 ];
