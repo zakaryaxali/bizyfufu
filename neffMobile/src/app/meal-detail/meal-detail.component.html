@@ -1,3 +1,46 @@
-<p>
-  meal-detail works!
-</p>
+<div id="meal-name">{{meal.name}}</div>
+
+<mat-grid-list cols="2" rowHeight="100px">
+  <mat-grid-tile
+      id="meal-img"
+      colspan="1"
+      rowspan="3">
+    <img src="" [alt]="meal.name"/>
+  </mat-grid-tile>
+  <mat-grid-tile
+      id="meal-description"
+      colspan="1"
+      rowspan="2">
+    <ul>
+      <li>Nutritional value : 10kcal</li>
+      <li>Restaurant : Tamer</li>
+      <li>Price : {{meal.price}}</li>
+      <li>Time : 5 min</li>
+    </ul>
+  </mat-grid-tile>
+  <mat-grid-tile
+      id="meal-order"
+      colspan="1"
+      rowspan="1">
+    <button mat-button [matMenuTriggerFor]="menu">
+      Order
+    </button>
+    <mat-menu #menu="matMenu" yPosition="below" [overlapTrigger]="false">
+      <button mat-menu-item>
+        <img src="" [alt]="meal.name"/>
+        <span>Deliveroo</span>
+      </button>
+      <button mat-menu-item>
+        <img src="" [alt]="meal.name"/>
+        <span>Alloresto</span>
+      </button>
+      <button mat-menu-item>
+        <img src="" [alt]="meal.name"/>
+        <span>Foodora</span>
+      </button>
+    </mat-menu>
+  </mat-grid-tile>
+</mat-grid-list>
+
+<div id="meal-location">Google Maps</div>
+<div id="meal-others">You may also like...</div>
