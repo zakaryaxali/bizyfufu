@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute, ParamMap } from '@angular/router';
+import { ActivatedRoute, ParamMap, Router } from '@angular/router';
 import { Location }                 from '@angular/common';
 
 import 'rxjs/add/operator/switchMap';
@@ -23,7 +23,8 @@ export class MealDetailComponent implements OnInit {
     private mealService: MealService,
     private restaurantService: RestaurantService,
     private route: ActivatedRoute,
-    private location: Location
+    private location: Location,
+    private router: Router
   ) {}
 
   ngOnInit(): void {
@@ -45,6 +46,10 @@ export class MealDetailComponent implements OnInit {
 
     goBack(): void {
       this.location.back();
+    }
+
+    mealOrder(): void {
+      this.router.navigate(['/summary']);
     }
 
 }

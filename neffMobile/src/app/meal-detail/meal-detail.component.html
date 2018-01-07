@@ -5,7 +5,7 @@
       id="meal-img"
       colspan="1"
       rowspan="3">
-    <img src="" [alt]="meal.name"/>
+    <img src="../../assets/img/food/asparagus.jpg" width="100%" [alt]="meal.name"/>
   </mat-grid-tile>
   <mat-grid-tile
       id="meal-description"
@@ -26,15 +26,15 @@
       Order
     </button>
     <mat-menu #menu="matMenu" yPosition="below" [overlapTrigger]="false">
-      <button mat-menu-item>
+      <button mat-menu-item (click)="mealOrder()" >
         <img src="" [alt]="meal.name"/>
         <span>Deliveroo</span>
       </button>
-      <button mat-menu-item>
+      <button mat-menu-item (click)="mealOrder()" >
         <img src="" [alt]="meal.name"/>
         <span>Alloresto</span>
       </button>
-      <button mat-menu-item>
+      <button mat-menu-item (click)="mealOrder()" >
         <img src="" [alt]="meal.name"/>
         <span>Foodora</span>
       </button>
