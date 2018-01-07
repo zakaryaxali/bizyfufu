@@ -28,9 +28,10 @@ export class MealService {
   // }
   getMeal(id: number): Promise<Meal> {
     const url = `${this.mealsUrl}/${id}`;
+    // console.log(url);
     return this.http.get(url)
       .toPromise()
-      .then(response => response.json().data as Meal)
+      .then(response => response.json() as Meal)
       .catch(this.handleError);
   }
 

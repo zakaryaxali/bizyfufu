@@ -32,6 +32,7 @@ export class MealDetailComponent implements OnInit {
     this.route.paramMap
       .switchMap((params: ParamMap) => this.mealService.getMeal(+params.get('id')))
       .subscribe(meal => {
+        // console.log(meal);
         a.meal = meal;
         // a.getRestaurant(a.meal);
       });
