@@ -1,19 +1,43 @@
 <div id="app-recommandation">
   <div class="title-recommandation"><img src="../../assets/img/logo.png"/>Recommandation du jour</div>
-  <div class="recommandation">
-    <h2>Today's rockstar meal</h2>
-    <div class="swipe-info">Swipe up to order</div>
-    <div class="recommanded-meal">
-      <div class="meal-information">
-        <div class="meal-details">
-          <ul>
-            <li>Risotto de Pablo</li>
-            <li>14€</li>
-            <li>Temps de livraison : 25min</li>
-          </ul>
+  <div class="main-carousel" data-flickity='{ "cellAlign": "center", "contain": true, "prevNextButtons": true, "pageDots": false, "imagesLoaded": true, "lazyLoad": true}'>
+    <div class="carousel-cell">
+      <div class="recommandation">
+        <h2>Today's rockstar meal</h2>
+        <button mat-button class="swipe-info" (click)="mealOrder()">Order</button>
+        <div class="recommanded-meal">
+          <div class="meal-information">
+            <img class="meal-img" src="../../assets/img/food/asparagus.jpg">
+            <div class="meal-details">
+              <ul>
+                <li>Risotto de Pablo</li>
+                <li>14€</li>
+                <li>Temps de livraison : 25min</li>
+              </ul>
+            </div>
+          </div>
+          <div class="swipe-info">Swipe right for more</div>
         </div>
       </div>
-      <div class="swipe-info">Swipe right for more</div>
+    </div>
+    <div class="carousel-cell">
+      <div class="recommandation">
+        <h2>Today's rockstar meal</h2>
+        <button mat-button class="swipe-info" (onclick)="mealOrder()">Order</button>
+        <div class="recommanded-meal">
+          <div class="meal-information">
+            <img class="meal-img" src="../../assets/img/food/breakfast.jpg">
+            <div class="meal-details">
+              <ul>
+                <li>Risotto de Pablo</li>
+                <li>14€</li>
+                <li>Temps de livraison : 25min</li>
+              </ul>
+            </div>
+          </div>
+          <div class="swipe-info">Swipe right for more</div>
+        </div>
+      </div>
     </div>
   </div>
 </div>

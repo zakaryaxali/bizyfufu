@@ -18,4 +18,28 @@
   /*width: 100%;
   height: 250px;*/
   /*background-image: url('../../assets/img/meal.png');*/
+  position: relative;
+}
+
+.carousel-cell {
+  width: 100vw;
+  height: 100vh;
+}
+
+.meal-img {
+  height: 50vh;
+  width: 100vw;
+}
+
+.meal-details {
+  position: absolute;
+  width: 75vw;
+  background-color: white;
+  opacity: 0.8;
+  bottom: 0;
+  right: 0;
+}
+
+.meal-details > ul {
+  list-style-type: none;
 }
