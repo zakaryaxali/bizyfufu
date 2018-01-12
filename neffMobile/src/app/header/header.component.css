@@ -1,0 +1,12 @@
+img {
+  outline-offset: 10px;
+  height: 25px;
+  margin-left: 15px;
+}
+
+.divider {
+  height: 0px;
+  overflow: hidden;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
