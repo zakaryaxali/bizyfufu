@@ -1,0 +1,50 @@
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  background-color: White;
+}
+
+td, th {
+  display: table-cell;
+  text-align: left;
+  vertical-align: middle;
+  word-wrap: break-word;
+  font-family: "Calibri Light";
+  font-size: 15px;
+}
+
+#meal-name{
+    font-family: "Calibri";
+    font-size: 25px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+button{
+
+   background-color: White;
+   border: solid 1px;
+   border-radius: 10px;
+   border-color: Green;
+   color: Green;
+   padding: 3px 3px;
+   text-align: center;
+   text-decoration: none;
+   font-family: "Calibri";
+   font-size: 15px;
+
+}
+
+#sub{
+
+   background-color: White;
+   border: none;
+   color: DarkSlateGrey;
+   padding: 0px;
+   text-align: center;
+   text-decoration: none;
+   font-family: "Calibri";
+   font-size: 15px;
+
+}

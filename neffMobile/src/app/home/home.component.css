@@ -6,7 +6,7 @@
   background-size: 100%;
 }
 .title-home {
-  color: #47525E;
+  color: HoneyDew;
   font-size: 3em
 }
 .recommandation {
@@ -20,6 +20,7 @@
   bottom: 0px;
   position: absolute;
   margin-left: 5vw;
+  margin-bottom: 5vw;
   display: flex;
   justify-content: center; /* align horizontal */
   align-items: center;

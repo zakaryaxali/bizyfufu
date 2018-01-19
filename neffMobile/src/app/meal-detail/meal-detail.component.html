@@ -1,22 +1,37 @@
 <div id="meal-name">{{meal?.name}}</div>
 
 <mat-grid-list cols="2" rowHeight="100px">
+
   <mat-grid-tile
       id="meal-img"
       colspan="1"
       rowspan="3">
     <img src="../../assets/img/food/asparagus.jpg" width="100%"/>
   </mat-grid-tile>
+
   <mat-grid-tile
       id="meal-description"
       colspan="1"
       rowspan="2">
-    <ul>
-      <li>Nutritional value : 10kcal</li>
-      <li>Restaurant : Tamer</li>
-      <li>Price : {{meal?.prix}}</li>
-      <li>Time : 5 min</li>
-    </ul>
+    <table>
+      <tr>
+        <td>Nutritional value</td>
+        <td>10 kcal</td>
+      </tr>
+      <tr>
+        <td>Restaurant</td>
+        <td>Tamer</td>
+      </tr>
+      <tr>
+        <td>Price</td>
+        <td>{{meal?.prix}}</td>
+      </tr>
+      <tr>
+        <td>Time</td>
+        <td>5 min</td>
+      </tr>
+    </table>
+
   </mat-grid-tile>
   <mat-grid-tile
       id="meal-order"
@@ -26,15 +41,15 @@
       Order
     </button>
     <mat-menu #menu="matMenu" yPosition="below" [overlapTrigger]="false">
-      <button mat-menu-item (click)="mealOrder()" >
+      <button id="sub" mat-menu-item (click)="mealOrder()" >
         <img src=""/>
         <span>Deliveroo</span>
       </button>
-      <button mat-menu-item (click)="mealOrder()" >
+      <button id="sub" mat-menu-item (click)="mealOrder()" >
         <img src=""/>
         <span>Alloresto</span>
       </button>
-      <button mat-menu-item (click)="mealOrder()" >
+      <button id="sub" mat-menu-item (click)="mealOrder()" >
         <img src=""/>
         <span>Foodora</span>
       </button>
